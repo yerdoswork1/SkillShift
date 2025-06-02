@@ -15,7 +15,7 @@ export default function ServicesPage() {
         <section>
             <DynamicBreadcrumb />
             <h2 className={`${montserrat.className} sm:hidden mt-3 text-sm font-semibold leading-none text-gray-900`} >
-                {t("services-page.directions")}
+                {t("services-page.breadcrumbs.services")}
             </h2>
             <ServicesList cards={cards} />
         </section>

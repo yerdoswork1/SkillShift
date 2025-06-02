@@ -34,11 +34,32 @@
             "professions": "Professions",
             "subjects": "Subjects",
             "languages": "Languages",
-            "music-and-dance": "Music and dance"        },
+            "music-and-dance": "Music and dance"
+        },
         "open-your-potential": {
             "title": "Unlock your potential with the SkillShift online school!",
             "subtitle": "Study at your convenience from anywhere in the world! A flexible schedule, practical skills, and mentor support will help you reach your goals quickly.",
             "whatsapp": "Message on WhatsApp"
+        }
+    },
+    "contacts": {
+        "contacts-section": {
+            "title": "Contacts"
+        },
+        "our-brances-section": {
+            "title": "Our branches"
+        },
+        "information-section": {
+            "title": "Information",
+            "public-offer": "Public offer",
+            "privacy-policy": "Privacy policy"
+        }
+    },
+    "services-page": {
+        "breadcrumbs": {
+            "home": "Home",
+            "contacts": "Contacts",
+            "services": "Services"
         }
     },
     "services": {
@@ -202,4 +223,3 @@
         }
     }
 }
-

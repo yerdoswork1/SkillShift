@@ -1,4 +1,5 @@
-import { montserrat } from "@/assets/fonts/fonts"
+'use client';
+
 import Image from "next/image"
 import ContactsImage from '@/assets/contacts/contacts-section.png'
 import MapPin from '@/assets/icons/contacts/map-pin.svg'
@@ -6,14 +7,19 @@ import PhoneIcon from '@/assets/icons/contacts/icon-phone-40.svg'
 import WPIcon from '@/assets/icons/contacts/whatsapp-logo.svg'
 import TGIcon from '@/assets/icons/contacts/telegram-logo.svg'
 import MailIcon from '@/assets/icons/contacts/icon-mail.svg'
+import UniversalTitle from "./UniversalTitle"
+import { useTranslation } from "react-i18next"
 
 const ContactsSection = () => {
+
+    const { t } = useTranslation()
+
     return (
         <section className="flex flex-col 
                 w-full 
                 py-2.5
                 gap-y-5 md:gap-y-10 xl:gap-y-13 2xl:gap-y-15" >
-            <h2 className={`${montserrat.className} text-sm md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-semibold text-gray-900`} >Контакты</h2>
+            <UniversalTitle title={t("contacts.contacts-section.title")} />
             <div className="flex flex-col md:flex-row gap-y-5 gap-x-10" >
                 <div className="w-full md:w-8/12">
                     <Image src={ContactsImage} alt="contacts image" priority className="w-full h-auto object-cover rounded-lg" />
