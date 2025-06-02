@@ -16,7 +16,7 @@ export const TranslationProvider = ({ children }: { children: ReactNode }) => {
 
 
     if (!ready) {
-        return <div>Loading translation...</div>;
+        return null;
     }
 
     return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>;

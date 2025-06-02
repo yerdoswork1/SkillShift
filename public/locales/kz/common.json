@@ -42,7 +42,26 @@
             "whatsapp": "WhatsApp-қа жазу"
         }
     },
-
+    "services-page": {
+        "breadcrumbs": {
+            "home": "Басты бет",
+            "contacts": "Байланыс",
+            "services": "Бағыттар"
+        }
+    },
+    "contacts": {
+        "contacts-section": {
+            "title": "Байланыс"
+        },
+        "our-brances-section": {
+            "title": "Біздің филиалдар"
+        },
+        "information-section": {
+            "title": "Ақпарат",
+            "public-offer": "Публичті оферта",
+            "privacy-policy": "Құпиялық саясаты"
+        }
+    },
     "services": {
         "per-month": "в месяц",
         "text-whatsapp": "WhatsApp жазыңыз",
