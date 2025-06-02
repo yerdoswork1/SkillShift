@@ -1,0 +1,15 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip123_15291">
+			<rect id="Feather Icons / map-pin" rx="0.000000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Feather Icons / map-pin" rx="0.000000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip123_15291)">
+		<path id="Vector" d="M20 38.33C20 38.33 5 28.33 5 16.66C5 12.68 6.58 8.87 9.39 6.06C12.2 3.24 16.02 1.66 20 1.66C23.97 1.66 27.79 3.24 30.6 6.06C33.41 8.87 35 12.68 35 16.66C35 28.33 20 38.33 20 38.33Z" stroke="#3C3ADF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M20 21.66C17.23 21.66 15 19.42 15 16.66C15 13.9 17.23 11.66 20 11.66C22.76 11.66 25 13.9 25 16.66C25 19.42 22.76 21.66 20 21.66Z" stroke="#3C3ADF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+	</g>
+</svg>
