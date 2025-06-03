@@ -8,7 +8,7 @@ export default function HeroSection() {
     const { t } = useTranslation();
 
     return (
-        <div className="w-full aspect-3/1 flex justify-between items-center my-6 lg:pl-12 md:pl-7 sm:pl-4 pl-2 py-4 rounded-2xl shadow-[0_0_15px_#3736369a]">
+        <div className="w-full aspect-3/1 flex justify-between items-center my-6 lg:pl-12 md:pl-7 sm:pl-4 pl-2 py-4 rounded-2xl shadow-[0_8px_20px_#00000010]">
             <div className="w-[50%] flex flex-col md:gap-4 gap-2 pl-2 items-start">
                 <h2 className="xl:text-5xl/14 lg:text-4xl sm:text-2xl text-base pt-2 text-blue-700 font-semibold w-[90%]">
                     {t('home-page.hero-section.title')}
