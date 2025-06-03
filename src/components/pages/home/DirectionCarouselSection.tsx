@@ -16,10 +16,10 @@ const DirectionCarouselSection = () => {
         <section className={`${montserrat.className} flex flex-col lg:space-y-14 mt-14 items-start w-full`}>
             <div className="flex justify-between w-full">
                 <h3 className="font-semibold tex-xs md:text-lg lg:text-2xl xl:text-4xl 2xl:text-5xl">{t("home-page.direction-carousel-section.directions")}</h3>
-                <Link href={"/services"} className="text-indigo-700 text-[0.68rem] md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl font-medium">{t("home-page.direction-carousel-section.see-all")}</Link>
+                <Link href={"/services"} className="text-indigo-700 text-[0.68rem] md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl font-medium hover:underline">{t("home-page.direction-carousel-section.see-all")}</Link>
             </div>
 
-            <div className="mt-5 md:mt-10 2xl:mt-14 w-full overflow-hidden "> {/* Добавлен negative margin */}
+            <div className="mt-5 md:mt-10 2xl:mt-14 w-full overflow-hidden ">
                 <Carousel
                     plugins={[Autoplay({ delay: 3000, stopOnMouseEnter: true, stopOnInteraction: false })]}
                     opts={{

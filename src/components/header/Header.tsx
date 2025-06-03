@@ -49,15 +49,11 @@ export default function Header() {
             <header
                 className="flex justify-between relative
         px-2.5 sm:px-0 py-7 w-full 
-        text-[rgb(35,34,34)] text-base md:text-xs xl:text-xl 2xl:text-2xl font-normal"
-                style={{
-                    boxShadow:
-                        '0px 1px 1px 0px rgba(0, 0, 0, 0.03), 0px 2px 2px 0px rgba(0, 0, 0, 0.03), 0px 5px 3px 0px rgba(0, 0, 0, 0.02), 0px 9px 4px 0px rgba(0, 0, 0, 0), 0px 14px 4px 0px rgba(0, 0, 0, 0)',
-                }}
+        text-[rgb(35,34,34)] text-base md:text-xs xl:text-xl 2xl:text-2xl font-normal shadow-[0px_2px_6px_0px_rgba(0,_0,_0,_0.05)] "
             >
                 <div className='relative mx-auto w-full px-2.5 sm:px-6 md:px-8 2xl:max-w-[1760px]'>
                     <div className="flex justify-between">
-                        <div className='flex items-center md:gap-x-2.5 xl:gap-x-10 '>
+                        <div className='flex items-center md:gap-x-5 xl:gap-x-10 '>
                             <Logo />
                             <SpecializationsDropdown />
                             <div className='hidden md:block'>
