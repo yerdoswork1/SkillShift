@@ -8,15 +8,15 @@ function Messengers() {
   return (
     <div className="flex gap-2">
         <Link href="/" >
-            <Image src={whatsappIcon} alt="WhatsApp icon" className="lg:w-9 w-7" />
+            <Image src={whatsappIcon} alt="WhatsApp icon" className="lg:w-9 w-7 hover:bg-[#F5F5F5] active:bg-[#EDEDED] rounded-md" />
         </Link>
 
         <Link href="/" >
-            <Image src={telegramIcon} alt="WhatsApp icon" className="lg:w-9 w-7" />
+            <Image src={telegramIcon} alt="WhatsApp icon" className="lg:w-9 w-7 hover:bg-[#F5F5F5] active:bg-[#EDEDED] rounded-md" />
         </Link>
 
         <Link href="/" >
-            <Image src={emailIcon} alt="WhatsApp icon" className="lg:w-9 w-7" />
+            <Image src={emailIcon} alt="WhatsApp icon" className="lg:w-9 w-7 hover:bg-[#F5F5F5] active:bg-[#EDEDED] rounded-md" />
         </Link>
     </div>
   )

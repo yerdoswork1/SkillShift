@@ -5,6 +5,7 @@ import { redirect } from 'next/navigation';
 import BackButton from "@/assets/icons/back_button_mobile.svg"
 import i18n from '@/lib/i18n';
 import { useTranslation } from 'react-i18next';
+import { montserrat } from '@/assets/fonts/fonts';
 
 interface Props {
     serviceCategoryId: string,
@@ -48,19 +49,19 @@ export default function ServicePage({serviceCategoryId, serviceId}: Props) {
             {/* описание */}
             <div className='md:w-[55%] md:min-h-70 flex flex-col justify-between gap-3 md:gap-3'>
                 <div className='flex flex-col md:gap-4 xl:gap-7'>
-                    <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-3 md:mb-0'>
+                    <h1 className='font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-base '>
                         {t(`services.${serviceCategoryId}.${serviceId}.name`)}
                     </h1>
 
                     {/* description */}
-                    <p className='xl:text-2xl lg:text-xl text-base mb-1'>
+                    <p className='xl:text-3xl lg:text-xl sm:text-base text-[14px] md:mb-0 mt-3'>
                         {t(`services.${serviceCategoryId}.${serviceId}.desc-1`)}
                     </p>
 
                     { // чек второй абзац для дескрипшн
                         i18n.exists(`services.${serviceCategoryId}.${serviceId}.desc-2`) 
                         && (
-                            <p className='xl:text-2xl lg:text-xl text-base mb-1'>
+                            <p className='xl:text-3xl lg:text-xl sm:text-base text-[14px] mt-1'>
                                 {t(`services.${serviceCategoryId}.${serviceId}.desc-2`)}
                             </p>
                         ) 
@@ -72,7 +73,7 @@ export default function ServicePage({serviceCategoryId, serviceId}: Props) {
                     <p className=' text-2xl lg:text-4xl md:mt-4 mt-3'>{`${priceFormatted} ₸ ${t(`services.per-month`)}`}</p>
                 </div>
 
-                <button className="xl:w-max xl:text-2xl lg:text-xl sm:text-xl text-lg text-white bg-blue-700 rounded-xl xl:rounded-2xl sm:px-6 px-2 xl:px-8 py-5 sm:py-8 md:py-3 cursor-pointer hover:bg-blue-800 active:bg-blue-900">
+                <button className={`xl:w-max xl:text-2xl lg:text-xl sm:text-xl text-lg text-white bg-blue-700 rounded-xl xl:rounded-2xl sm:px-6 px-2 xl:px-8 py-2.5 sm:py-8 md:py-3 mb-2.5 cursor-pointer hover:bg-blue-800 active:bg-blue-900 ${montserrat.className} font-semibold`}>
                         {t("services.text-whatsapp")}
                 </button>
             </div>
