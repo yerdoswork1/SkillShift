@@ -4,6 +4,7 @@ import Image from "next/image";
 import LinkToIconComponent from "@/components/ui/LinkToIconComponent";
 import { IServiceCard } from "@/components/pages/services/cardsInfo";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 interface IMainCardProps extends IServiceCard {
     className?: string;
@@ -22,7 +23,9 @@ const MainCard: React.FC<IMainCardProps> = ({ id, name, image, price, className 
                 shadow-[0px_4px_10px_0px_rgba(0,_0,_0,_0.06)]
                 hover:shadow-[0px_6px_12px_0px_rgba(0,_0,_0,_0.10)]`}
         >
-            {image && <Image src={image} alt={name} className="w-full" priority />}
+            <Link href={`services/${id}`} >
+                {image && <Image src={image} alt={name} className="w-full" priority />}
+            </Link>
             <div>
                 <p className="
                 mt-2.5 md:mt-4 xl:mt-5 2xl:mt-9 
