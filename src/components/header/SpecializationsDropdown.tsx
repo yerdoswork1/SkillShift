@@ -39,9 +39,9 @@ const SpecializationsDropdown = () => {
                 <nav className="absolute
                     hidden md:block
                     xl:px-7 lg:px-5 md:px-3.5 xl:pb-7 lg:pb-5 md:pb-3
-                    2xl:top-[64px] xl:top-[62px] lg:top-[60px] md:top-[59px] left-[30%] 
+                    2xl:top-[64px] xl:top-[60px] lg:top-[60px] md:top-[59px] left-[30%] 
                     2xl:w-64 xl:w-[218px] lg:w-35 md:w-32
-                    rounded-lg rounded-t-none bg-white drop-shadow-lg z-10"  >
+                    rounded-lg rounded-t-none bg-white shadow-[0px_8px_24px_0px_rgba(0,_0,_0,_0.10)] z-10"  >
                     <ul className="flex flex-col 2xl:gap-y-5 xl:gap-y-4 md:gap-y-2.5 " >
                         <li><Link href="/services/professions" className="hover:text-[rgb(60,58,223)]">{t('header.professions')}</Link></li>
                         <li><Link href="/services/subjects" className="hover:text-[rgb(60,58,223)]">{t('header.subjects')}</Link></li>
