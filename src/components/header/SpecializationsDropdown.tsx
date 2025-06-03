@@ -4,6 +4,7 @@ import Image from "next/image";
 import vectorDown from '@/assets/icons/vector-down.svg';
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 const SpecializationsDropdown = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -42,10 +43,10 @@ const SpecializationsDropdown = () => {
                     2xl:w-64 xl:w-[218px] lg:w-35 md:w-32
                     rounded-lg rounded-t-none bg-white drop-shadow-lg z-10"  >
                     <ul className="flex flex-col 2xl:gap-y-5 xl:gap-y-4 md:gap-y-2.5 " >
-                        <li><a href="/services/professions" className="hover:text-[rgb(60,58,223)]">{t('header.professions')}</a></li>
-                        <li><a href="/services/subjects" className="hover:text-[rgb(60,58,223)]">{t('header.subjects')}</a></li>
-                        <li><a href="/services/languages" className="hover:text-[rgb(60,58,223)]">{t('header.languages')}</a></li>
-                        <li><a href="/services/music-dance" className="hover:text-[rgb(60,58,223)]">{t('header.music-and-dance')}</a></li>
+                        <li><Link href="/services/professions" className="hover:text-[rgb(60,58,223)]">{t('header.professions')}</Link></li>
+                        <li><Link href="/services/subjects" className="hover:text-[rgb(60,58,223)]">{t('header.subjects')}</Link></li>
+                        <li><Link href="/services/languages" className="hover:text-[rgb(60,58,223)]">{t('header.languages')}</Link></li>
+                        <li><Link href="/services/music-dance" className="hover:text-[rgb(60,58,223)]">{t('header.music-and-dance')}</Link></li>
 
                     </ul>
                 </nav>

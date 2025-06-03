@@ -6,7 +6,7 @@ import Link from "next/link"
 const Logo = () => {
 
     return (
-        <Link href="/home" className='flex items-center gap-x-3' >
+        <Link href="/home" className='flex items-center gap-1' >
             <div className='w-4 md:w-8 xl:w-9 2xl:w-10'  >
                 <Image src={LogoIcon} alt="Skill Shift" className='w-full' />
             </div>

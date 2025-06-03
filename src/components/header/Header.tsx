@@ -57,7 +57,7 @@ export default function Header() {
             >
                 <div className='relative mx-auto w-full px-2.5 sm:px-6 md:px-8 2xl:max-w-[1760px]'>
                     <div className="flex justify-between">
-                        <div className='flex items-center md:gap-x-2.5 xl:gap-x-10 '>
+                        <div className='flex items-center md:gap-x-5 xl:gap-x-10 '>
                             <Logo />
                             <SpecializationsDropdown />
                             <div className='hidden md:block'>
