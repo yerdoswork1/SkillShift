@@ -25,7 +25,7 @@ export default function FilterPanel({ serviceCategoryId, subCategories, selected
         {
             subCategories.map((subCategoryName, i) => (
                 <button key={i} onClick={() => changeFilterCategory(subCategoryName)} 
-                    className={`w-20 sm:w-36 md:w-56 text-xs sm:text-base md:text-xl lg:text-2xl py-2.5 sm:py-4 rounded-md border-1 border-gray-400 cursor-pointer ${selectedSubCategory === subCategoryName ? "bg-gray-200 border-none" : ""}`}
+                    className={`w-20 sm:w-36 md:w-56 text-xs sm:text-base md:text-xl lg:text-2xl py-2.5 sm:py-4 rounded-md border-1 border-gray-400 cursor-pointer hover:bg-[#F5F5F5] ${selectedSubCategory === subCategoryName ? "bg-[#EDEDED] hover:bg-[#EDEDED]! border-none" : ""}`}
                 >{subCategoryName}
                 </button>
             ))
