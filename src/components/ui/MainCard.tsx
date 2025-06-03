@@ -19,7 +19,8 @@ const MainCard: React.FC<IMainCardProps> = ({ id, name, image, price, className 
                 ${className}
                 bg-white rounded-2xl 
                 p-2.5 md:p-5 xl:p-8 
-                shadow-[0px_8px_16px_0px_rgba(0,_0,_0,_0.25)]`}
+                shadow-[0px_4px_10px_0px_rgba(0,_0,_0,_0.06)]
+                hover:shadow-[0px_6px_12px_0px_rgba(0,_0,_0,_0.10)]`}
         >
             {image && <Image src={image} alt={name} className="w-full" priority />}
             <div>
