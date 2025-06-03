@@ -94,7 +94,7 @@ const LanguageDropDown: React.FC<LanguageDropDownProps> = ({ isOpen, setIsOpen, 
                         {languages.map((language) => (
                             <li key={language.code}>
                                 <button
-                                    className={`w-full flex items-center gap-3 px-4 py-2 hover:bg-gray-50 hover:text-[#3C3ADF] transition-colors ${selectedLanguage.code === language.code ? 'text-[#3C3ADF] font-medium' : ''
+                                    className={`w-full flex items-center gap-3 px-4 py-2  hover:text-[#3C3ADF] transition-colors ${selectedLanguage.code === language.code ? 'text-[#3C3ADF] font-medium' : ''
                                         }`}
                                     onClick={() => {
                                         i18n.changeLanguage(language.code);
@@ -105,10 +105,8 @@ const LanguageDropDown: React.FC<LanguageDropDownProps> = ({ isOpen, setIsOpen, 
                                 >
                                     <Image
                                         src={language.src}
-                                        alt=""
-                                        width={20}
-                                        height={20}
-                                        className="flex-shrink-0"
+                                        alt="language"
+                                        className="flex-shrink-0 w-4.5 md:w-6 2xl:w-10"
                                     />
                                     <span>{language.name}</span>
                                 </button>
