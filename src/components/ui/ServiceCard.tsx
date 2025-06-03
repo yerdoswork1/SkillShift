@@ -15,7 +15,7 @@ export default function ServiceCard({name, image, price, url}: Props) {
     const priceFormatted = price && new Intl.NumberFormat("ru-RU").format(Number(price)); // форматировать прайс
 
     return (
-        <Link href={url ?? ""} className="block min-w-[100px] basis-[48%] sm:basis-[31%] h-max bg-white rounded-2xl p-2.5 md:p-3.5 lg:p-4 xl:p-6.5 2xl:p-8 shadow-[0px_8px_16px_0px_rgba(0,_0,_0,_0.25)]" >
+        <Link href={url ?? ""} className="block min-w-[100px] basis-[48%] sm:basis-[31%] h-max bg-white rounded-2xl p-2.5 md:p-3.5 lg:p-4 xl:p-6.5 2xl:p-8  shadow-[0px_4px_10px_0px_rgba(0,_0,_0,_0.06)] hover:shadow-[0px_6px_12px_0px_rgba(0,_0,_0,_0.10)]" >
             {/* картинка */}
             <div className="w-full aspect-[3/2]">
                 {
