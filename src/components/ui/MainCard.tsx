@@ -37,7 +37,7 @@ const MainCard: React.FC<IMainCardProps> = ({ id, name, image, price, className 
             <div className="mt-1.5 w-full flex justify-between md:justify-start md:flex-row-reverse">
                 {price && (
                     <p className="text-xs font-normal md:hidden">
-                        от {new Intl.NumberFormat('ru-RU').format(price)} ₸
+                        {t(`home-page.direction-carousel-section.from`)} {new Intl.NumberFormat('ru-RU').format(price)} ₸
                     </p>
                 )}
                 <LinkToIconComponent href={`services/${id}`} />
