@@ -10,9 +10,6 @@
 !.yarn/releases
 !.yarn/versions
 
-# ignore yarn.lock
-yarn.lock
-
 # testing
 /coverage
 
