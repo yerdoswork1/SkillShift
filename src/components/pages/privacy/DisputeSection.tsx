@@ -1,35 +1,28 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function DisputeSection() {
+  const { t } = useTranslation();
+
   const terms = [
-    {
-      id: "8.1.",
-      value: ` До обращения в суд с иском по спорам, возникающим из отношений между Пользователем сайта и Администрацией сайта,
-      обязательным является предъявление претензии (письменного предложения о добровольном урегулировании спора). `,
-    },
-    {
-      id: "8.2.",
-      value: ` Получатель претензии в течение 30 календарных дней со дня получения претензии, письменно уведомляет
-      заявителя претензии о результатах рассмотрения претензии.`,
-    },
-    {
-      id: "8.3.",
-      value: ` При недостижении соглашения спор будет передан на рассмотрение в судебный орган в соответствии с действующим законодательством РК.`,
-    },
-    {
-      id: "8.4.",
-      value: ` К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией сайта применяется действующее законодательство РК.`,
-    },
+    { id: "8.1", value: t("privacy-page.dispute-section.terms.8.1") },
+    { id: "8.2", value: t("privacy-page.dispute-section.terms.8.2") },
+    { id: "8.3", value: t("privacy-page.dispute-section.terms.8.3") },
+    { id: "8.4", value: t("privacy-page.dispute-section.terms.8.4") },
   ];
+
   return (
     <section>
-      <h1 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
-        8. РАЗРЕШЕНИЕ СПОРОВ
-      </h1>
-      {terms.map((t) => (
+      <h2 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
+        {t("privacy-page.dispute-section.title")}
+      </h2>
+      {terms.map((term) => (
         <p
           className="mt-1 text-[0.4rem] sm:text-xs md:mt-4 lg:text-lg xl:text-2xl"
-          key={t.id}
+          key={term.id}
         >
-          {t.id + t.value}
+          {term.id} {term.value}
         </p>
       ))}
     </section>
