@@ -43,7 +43,7 @@ export default function ServiceCard({name, image, price, url}: Props) {
             {/* прайс и иконка стрелки */}
             <div className="mt-1 sm:mt-1.5 w-full flex items-center justify-between md:justify-between">
                 <p className={`text-[0.6rem] md:text-base lg:text-xl xl:text-2xl font-normal`}  >
-                    {price ? `от ${priceFormatted} ₸ ${t(`services.per-month`)}` : ""}
+                    {price ? `${t(`home-page.direction-carousel-section.from`)} ${priceFormatted} ₸ ${t(`services.per-month`)}` : ""}
                 </p>
                 
                 <Image
