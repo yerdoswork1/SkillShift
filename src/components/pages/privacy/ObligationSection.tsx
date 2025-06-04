@@ -1,52 +1,32 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function ObligationSection() {
+  const { t } = useTranslation();
+
   const terms = [
-    {
-      id: "6.1.",
-      value: ` Пользователь обязан: `,
-    },
-    {
-      id: "6.1.1.",
-      value: ` Предоставить информацию о персональных данных, необходимую для пользования Сайтом.`,
-    },
-    {
-      id: "6.1.2.",
-      value: ` Обновить, дополнить предоставленную информацию о персональных данных в случае изменения данной информации.`,
-    },
-    { id: "6.2.", value: ` Администрация сайта обязана:` },
-    {
-      id: "6.2.1.",
-      value: ` Использовать полученную информацию исключительно для целей,
-        указанных в п. 4 настоящей Политики конфиденциальности.`,
-    },
-    {
-      id: "6.2.2.",
-      value: ` Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного письменного разрешения Пользователя,
-        а также не осуществлять продажу, обмен, опубликование, либо разглашение иными возможными способами переданных персональных данных Пользователя,
-        за исключением п.п. 5.2. и 5.3. настоящей Политики Конфиденциальности.`,
-    },
-    {
-      id: "6.2.3.",
-      value: ` Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя согласно порядку,
-              обычно используемого для защиты такого рода информации в существующем деловом обороте.`,
-    },
-    {
-      id: "6.2.4.",
-      value: ` Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю,
-        с момента обращения или запроса Пользователя или его законного представителя либо уполномоченного органа по
-        защите прав субъектов персональных данных на период проверки, в случае выявления недостоверных персональных данных или неправомерных действий.`,
-    },
+    { id: "6.1", value: t("privacy-page.obligation-section.terms.6.1") },
+    { id: "6.1.1", value: t("privacy-page.obligation-section.terms.6.1.1") },
+    { id: "6.1.2", value: t("privacy-page.obligation-section.terms.6.1.2") },
+    { id: "6.2", value: t("privacy-page.obligation-section.terms.6.2") },
+    { id: "6.2.1", value: t("privacy-page.obligation-section.terms.6.2.1") },
+    { id: "6.2.2", value: t("privacy-page.obligation-section.terms.6.2.2") },
+    { id: "6.2.3", value: t("privacy-page.obligation-section.terms.6.2.3") },
+    { id: "6.2.4", value: t("privacy-page.obligation-section.terms.6.2.4") },
   ];
+
   return (
     <section>
-      <h1 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
-        6. ОБЯЗАТЕЛЬСТВА СТОРОН
-      </h1>
-      {terms.map((t) => (
+      <h2 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
+        {t("privacy-page.obligation-section.title")}
+      </h2>
+      {terms.map((term) => (
         <p
           className="mt-1 text-[0.4rem] sm:text-xs md:mt-4 lg:text-lg xl:text-2xl"
-          key={t.id}
+          key={term.id}
         >
-          {t.id + t.value}
+          {term.id} {term.value}
         </p>
       ))}
     </section>

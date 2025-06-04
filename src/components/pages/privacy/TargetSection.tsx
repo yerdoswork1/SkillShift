@@ -1,66 +1,32 @@
-export default function TargetSection() {
-  const terms = [
-    {
-      id: "4.1.",
-      value: ` Персональные данные Пользователя Администрация сайта может использовать в целях:`,
-    },
-    {
-      id: "4.1.1.",
-      value: ` Идентификации Пользователя, зарегистрированного на сайте,
-       для оформления покупки и (или) заключения Договора купли-продажи 
-       товара дистанционным способом с SkillShift.`,
-    },
-    {
-      id: "4.1.2.",
-      value:
-        " Предоставления Пользователю доступа к персонализированным ресурсам Сайта.",
-    },
-    {
-      id: "4.1.3.",
-      value: ` Установления с Пользователем обратной связи, включая направление 
-      уведомлений, запросов, касающихся использования Сайта, оказания услуг, обработка запросов и заявок от Пользователя.`,
-    },
-    {
-      id: "4.1.4.",
-      value: ` Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества.`,
-    },
-    {
-      id: "4.1.5.",
-      value: ` Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем.`,
-    },
-    {
-      id: "4.1.6.",
-      value: ` Обработки и получения платежей, подтверждения налога или налоговых льгот, 
-      оспаривания платежа, определения права на получение кредитной линии Пользователем.`,
-    },
-    {
-      id: "4.1.7.",
-      value: ` Предоставления Пользователю эффективной клиентской и технической 
-      поддержки при возникновении проблем, связанных с использованием Сайта.`,
-    },
-    {
-      id: "4.1.8.",
-      value: ` Предоставления Пользователю с его согласия, 
-      обновлений продукции, специальных предложений, информации о ценах, 
-      новостной рассылки и иных сведений от имени сайта или от имени партнеров сайта.`,
-    },
-    {
-      id: "4.1.9.",
-      value: `Предоставления доступа Пользователю на сайты или сервисы партнеров сайта с целью получения продуктов, обновлений и услуг.`,
-    },
-  ];
+"use client";
 
+import { useTranslation } from "react-i18next";
+
+export default function TargetSection() {
+  const { t } = useTranslation();
+  const terms = [
+    { id: "4.1", value: t("privacy-page.target-section.terms.4.1") },
+    { id: "4.1.1", value: t("privacy-page.target-section.terms.4.1.1") },
+    { id: "4.1.2", value: t("privacy-page.target-section.terms.4.1.2") },
+    { id: "4.1.3", value: t("privacy-page.target-section.terms.4.1.3") },
+    { id: "4.1.4", value: t("privacy-page.target-section.terms.4.1.4") },
+    { id: "4.1.5", value: t("privacy-page.target-section.terms.4.1.5") },
+    { id: "4.1.6", value: t("privacy-page.target-section.terms.4.1.6") },
+    { id: "4.1.7", value: t("privacy-page.target-section.terms.4.1.7") },
+    { id: "4.1.8", value: t("privacy-page.target-section.terms.4.1.8") },
+    { id: "4.1.9", value: t("privacy-page.target-section.terms.4.1.9") },
+  ];
   return (
-    <section>
-      <h1 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
-        4. ЦЕЛИ СБОРА ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЯ
-      </h1>
-      {terms.map((t) => (
+    <section className="mb-15">
+      <h2 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
+        {t("privacy-page.target-section.title")}
+      </h2>
+      {terms.map((term) => (
         <p
           className="mt-1 text-[0.4rem] sm:text-xs md:mt-4 lg:text-lg xl:text-2xl"
-          key={t.id}
+          key={term.id}
         >
-          {t.id + t.value}
+          {term.id} {term.value}
         </p>
       ))}
     </section>
