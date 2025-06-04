@@ -1,39 +1,37 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
+
 export default function ResponsibilitySection() {
+  const { t } = useTranslation();
+
   const terms = [
+    { id: "7.1", value: t("privacy-page.responsibility-section.terms.7.1") },
+    { id: "7.2", value: t("privacy-page.responsibility-section.terms.7.2") },
     {
-      id: "7.1.",
-      value: `  Администрация сайта, не исполнившая свои обязательства, несёт ответственность за убытки,
-        понесённые Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Республики Казахстан,
-        за исключением случаев, предусмотренных п.п. 5.2., 5.3. и 7.2. настоящей Политики Конфиденциальности.`,
+      id: "7.2.1",
+      value: t("privacy-page.responsibility-section.terms.7.2.1"),
     },
     {
-      id: "7.2.",
-      value: ` В случае утраты или разглашения Конфиденциальной информации Администрация сайта не несёт ответственность, если данная конфиденциальная информация: `,
+      id: "7.2.2",
+      value: t("privacy-page.responsibility-section.terms.7.2.2"),
     },
     {
-      id: "7.2.1.",
-      value: ` Стала публичным достоянием до её утраты или разглашения.`,
-    },
-    {
-      id: "7.2.2.",
-      value: ` Была получена от третьей стороны до момента её получения Администрацией сайта.`,
-    },
-    {
-      id: "7.2.3.",
-      value: ` Была разглашена с согласия Пользователя.`,
+      id: "7.2.3",
+      value: t("privacy-page.responsibility-section.terms.7.2.3"),
     },
   ];
   return (
     <section>
-      <h1 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
-        7. ОТВЕТСТВЕННОСТЬ СТОРОН
-      </h1>
-      {terms.map((t) => (
+      <h2 className="mt-10 mb-10 w-[90%] pt-2 text-base font-semibold sm:text-2xl lg:text-4xl xl:text-5xl/14">
+        {t("privacy-page.responsibility-section.title")}
+      </h2>
+      {terms.map((term) => (
         <p
           className="mt-1 text-[0.4rem] sm:text-xs md:mt-4 lg:text-lg xl:text-2xl"
-          key={t.id}
+          key={term.id}
         >
-          {t.id + t.value}
+          {term.id} {term.value}
         </p>
       ))}
     </section>

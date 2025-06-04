@@ -1,226 +1,347 @@
 {
-    "header": {
-        "contacts": "Contacts",
-        "directions": "Directions",
-        "professions": "Professions",
-        "subjects": "Subjects",
-        "languages": "Languages",
-        "music-and-dance": "Music and dance",
-        "music-dance": "Music and dance",
-        "save": "Save"
+  "header": {
+    "contacts": "Contacts",
+    "directions": "Directions",
+    "professions": "Professions",
+    "subjects": "Subjects",
+    "languages": "Languages",
+    "music-and-dance": "Music and dance",
+    "music-dance": "Music and dance",
+    "save": "Save"
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "info": "Information",
+    "privacy": "Privacy Policy",
+    "public-offer": "Public Offer",
+    "contacts": "Contacts",
+    "all-rights-reserved": "All rights reserved"
+  },
+  "home-page": {
+    "hero-section": {
+      "title": "Learn Chinese ",
+      "in-ease": "with\u00a0ease",
+      "subtitle": "SkillShift — knowledge for life and career.",
+      "whatsapp": "Message on WhatsApp"
     },
-    "navbar": {
-        "home": "Home",
-        "services": "Services",
-        "contacts": "Contacts"
+    "direction-carousel-section": {
+      "directions": "Directions",
+      "see-all": "See all",
+      "professions": "Professions",
+      "subjects": "Subjects",
+      "languages": "Languages",
+      "music-and-dance": "Music and dance",
+      "from": "from"
     },
-    "footer": {
-        "info": "Information",
-        "privacy": "Privacy Policy",
-        "public-offer": "Public Offer",
-        "contacts": "Contacts",
-        "all-rights-reserved": "All rights reserved"
-    },
-    "home-page": {
-        "hero-section": {
-            "title": "Learn Chinese ",
-            "in-ease": "with\u00a0ease",
-            "subtitle": "SkillShift — knowledge for life and career.",
-            "whatsapp": "Message on WhatsApp"
-        },
-        "direction-carousel-section": {
-            "directions": "Directions",
-            "see-all": "See all",
-            "professions": "Professions",
-            "subjects": "Subjects",
-            "languages": "Languages",
-            "music-and-dance": "Music and dance",
-            "from": "from"
-        },
-        "open-your-potential": {
-            "title": "Unlock your potential with the SkillShift online school!",
-            "subtitle": "Study at your convenience from anywhere in the world! A flexible schedule, practical skills, and mentor support will help you reach your goals quickly.",
-            "whatsapp": "Message on WhatsApp"
-        }
-    },
-    "contacts": {
-        "contacts-section": {
-            "title": "Contacts"
-        },
-        "our-brances-section": {
-            "title": "Our branches"
-        },
-        "information-section": {
-            "title": "Information",
-            "public-offer": "Public offer",
-            "privacy-policy": "Privacy policy"
-        }
-    },
-    "services-page": {
-        "breadcrumbs": {
-            "home": "Home",
-            "contacts": "Contacts",
-            "services": "Services"
-        }
-    },
-    "services": {
-        "per-month": "per month",
-        "text-whatsapp": "Text on WhatsApp",
-        "music-dance": {
-            "piano": {
-                "name": "Piano",
-                "desc-1": "You will master classical pieces, modern hits, or even learn to improvise. We focus not only on technique but also help develop musical ear and teach the fundamentals of music.",
-                "desc-2": "Join our classes and immerse yourself in the world of music with joy!"
-            },
-            "classic-guitar": {
-                "name": "Classical Guitar",
-                "desc-1": "In the lessons, you will learn the basics of playing, performance techniques, and music theory. You will learn to play your favorite pieces or explore classical works. We will help you develop diverse skills and musical taste.",
-                "desc-2": "Join our classes and discover the world of music on the classical guitar!"
-            },
-            "violin": {
-                "name": "Violin",
-                "desc-1": "In the lessons, you will master the basics of playing technique, music theory, and various performance styles. You will study classical pieces, practice ensemble playing, which will teach you to interact with other musicians.",
-                "desc-2": "Join our classes and discover the magic of playing the violin!"
-            },
-            "drums": {
-                "name": "Drums",
-                "desc-1": "You will learn basic rhythms and playing techniques. Classes are conducted by qualified instructors who will help you develop a sense of rhythm, coordination, and musical literacy.",
-                "desc-2": "Join us and start your journey into the world of percussion music!"
-            },
-            "domra": {
-                "name": "Domra",
-                "desc-1": "You will learn basic playing techniques, chords, and melodies, as well as master various performance styles. Experienced instructors will help you develop musical ear, technique, and a sense of rhythm.",
-                "desc-2": "Join us and discover the world of domra music!"
-            },
-            "choreography": {
-                "name": "Choreography",
-                "desc-1": "You will master classical elements, strengthen your feet and back, and prepare the foundation for other dance styles. Experienced instructors will help you develop flexibility, coordination, and a sense of rhythm.",
-                "desc-2": "Join us and unlock your dance potential!"
-            },
-            "hip-hop": {
-                "name": "Hip-Hop",
-                "desc-1": "You will master the main styles of hip-hop, such as breaking, locking, and popping, and learn to create your own choreographic combinations.",
-                "desc-2": "Join us and unleash your creativity in hip-hop dance!"
-            },
-            "tango": {
-                "name": "Tango",
-                "desc-1": "You will master the basic steps and techniques, learn to feel the music and interact with your partner. Experienced instructors will help you develop coordination and emotional expressiveness.",
-                "desc-2": "Join us and discover the magic of tango!"
-            },
-            "break-dance": {
-                "name": "Breakdance",
-                "desc-1": "You will master the basic elements of breakdance, including top-rock, down-rock, freezes, and pauses, and learn to create your own combinations. Experienced instructors will help you develop strength, flexibility, and coordination.",
-                "desc-2": "Join us and become part of the exciting world of breakdance!"
-            },
-            "shaffle": {
-                "name": "Shuffle",
-                "desc-1": "You will master the basic steps and techniques of shuffle and learn to combine them with various musical styles. Experienced instructors will help you develop a sense of rhythm and coordination.",
-                "desc-2": "Join us and discover the fascinating world of shuffle dance!"
-            },
-            "pop-vocals": {
-                "name": "Pop Vocals",
-                "desc-1": "You will master basic breathing, intonation, and articulation techniques, as well as learn to work with various musical styles. Experienced instructors will help you develop vocal abilities and musical ear.",
-                "desc-2": "Join us and start your journey to musical excellence!"
-            },
-            "classical-vocals": {
-                "name": "Classical Vocals",
-                "desc-1": "You will master basic breathing, intonation, and articulation techniques. Experienced instructors will help you develop vocal abilities and musical ear.",
-                "desc-2": "Join us and start your journey to musical excellence!"
-            }
-        },
-        "professions": {
-            "product-manager": {
-                "name": "Product Manager",
-                "desc-1": "The course combines theory and practice of digital product management at all stages of its development. You will master market, competitor, and target audience analysis using digital tools, as well as learn to manage the product lifecycle and coordinate the team effectively."
-            },
-            "java-back-end-developer": {
-                "name": "Java Back-End Developer",
-                "desc-1": "The course explores the Java programming language for creating the server side of websites and applications. You will master industry-standard frameworks and libraries, understand classes, inheritance, and interfaces, and study object-oriented programming, working with collections, exception handling, and multithreading."
-            },
-            "react-front-end-developer": {
-                "name": "React Front-End Developer",
-                "desc-1": "The course provides theoretical knowledge, practical skills, and modern approaches in developing interactive user interfaces using the JavaScript library — React. You will study data structure algorithms and the component-based approach in development for creating large components from smaller ones."
-            },
-            "flutter-mobile-developer": {
-                "name": "Flutter Mobile Developer",
-                "desc-1": "The course provides theoretical knowledge and practical skills in developing cross-platform mobile applications using the Flutter framework and the Draft programming language. You will learn to create applications for different operating systems and web applications using a single codebase, and master working with databases."
-            },
-            "ui-ux-designer ": {
-                "name": "UI/UX Designer",
-                "desc-1": "The course covers the basics of studying user experience and needs, as well as designing clear and convenient digital products. You will master all stages of the design process and the designer's role in each, study methods for researching the target audience, and tools for designing and prototyping necessary for the job."
-            },
-            "interior-exterior-designer": {
-                "name": "Interior and Exterior Designer",
-                "desc-1": "The course covers the basics of designing functional and aesthetic interiors. You will master creating conceptual sketches, drawings, and 3D visualizations in 3DsMax and Revit, and go through all stages — from developing a style concept to selecting furniture, materials, and lighting."
-            },
-            "fashion-designer": {
-                "name": "Fashion Designer",
-                "desc-1": "The course covers the basics and principles of creating fashion design and trends in the industry. You will study the process of creating sketches of clothing models and prints, including 3D modeling, learn to select materials and accessories, and explore all stages of designing, sewing, and launching production."
-            },
-            "furniture-designer": {
-                "name": "Furniture Designer",
-                "desc-1": "You will study the entire process of creating furniture — from the idea and 3D modeling in SketchUp to selecting materials and production technologies. Master the skills of designing stylish and practical interior items, relying on modern trends and the specifics of various materials."
-            }
-        },
-        "subjects": {
-            "biology": {
-                "name": "Biology",
-                "desc-1": "The biology course for secondary school is aimed at studying living nature, its patterns, and diversity. It covers the main sections of biology that help students understand the structure, functions, and interactions of living organisms, as well as their role in ecosystems."
-            },
-            "chemistry": {
-                "name": "Chemistry",
-                "desc-1": "The chemistry course for secondary school is aimed at studying substances, their properties, structure, and transformations. It introduces students to basic chemical concepts, laws, and processes, and develops skills in conducting experiments and solving problems."
-            },
-            "geography": {
-                "name": "Geography",
-                "desc-1": "The geography course for secondary school is aimed at forming students' understanding of the Earth's nature, population, economy, and environmental issues. It covers general geographical patterns and the characteristics of individual regions and countries."
-            },
-            "informatics": {
-                "name": "Informatics",
-                "desc-1": "The informatics course forms basic knowledge and skills in the field of information technology and computer work. It covers theoretical foundations and practical aspects necessary for understanding and using modern technologies."
-            },
-            "math": {
-                "name": "Mathematics",
-                "desc-1": "The mathematics course is aimed at developing logical thinking, problem-solving skills, and applying knowledge in everyday life. It covers the main sections of mathematics that form the foundation for further study of exact sciences."
-            },
-            "painting": {
-                "name": "Painting",
-                "desc-1": "The painting course for secondary school is aimed at forming students' understanding of artistic styles, techniques, outstanding masters, and their works. It covers the basics of fine art, the development of painting in different eras, and introduces the cultural heritage of various countries and peoples."
-            },
-            "physics": {
-                "name": "Physics",
-                "desc-1": "The physics course for secondary school is aimed at forming students' basic knowledge of physical phenomena, laws, and methods of studying them. It covers the main sections of physics that help understand the world around us and prepare for further education."
-            },
-            "robotics": {
-                "name": "Robotics",
-                "desc-1": "Master the creation and programming of robots: from the basics of electronics and mechanics to developing control algorithms. Learn to assemble functional models, work with microcontrollers and sensors."
-            }
-        },
-        "languages": {
-            "arab": {
-                "name": "Arabic",
-                "desc-1": "Arabic language courses are suitable for any level — from beginners to advanced. The program covers grammar, vocabulary, and the development of reading, writing, and listening skills. You will immerse yourself in different dialects, get acquainted with Arabic culture, and learn in an interactive format."
-            },
-            "chinese": {
-                "name": "Chinese",
-                "desc-1": "In Chinese language courses, you will not only master basic and grammatical structures. You will gain unique knowledge about Chinese writing, including characters. You will learn to read and write in Chinese, which is an element of deep understanding of culture and history. Master the basics of pronunciation and tones, which are especially important for perception and conveying meaning."
-            },
-            "english": {
-                "name": "English",
-                "desc-1": "Courses for people who want to communicate freely. You will learn to speak with foreigners and native speakers, improve your pronunciation, understand speech by ear, and confidently maintain a conversation in English. You will master basic conversational structures, expand your vocabulary, and overcome the language barrier. The classes include practical exercises."
-            },
-            "kazakh": {
-                "name": "Kazakh",
-                "desc-1": "Our online Kazakh language courses are an opportunity to learn one of the oldest and most beautiful languages in the world. The program is suitable for all levels — from beginners to advanced. The flexible learning format allows you to master the language at your convenience while immersing yourself in the culture and traditions of Kazakhstan. Special emphasis is placed on developing conversational skills."
-            },
-            "russian": {
-                "name": "Russian",
-                "desc-1": "We offer engaging and effective learning, specially designed for those who want to start learning Russian from scratch or improve their existing knowledge. Special attention is paid to developing oral communication skills. During the course, you will learn to correctly construct sentences typical of the Russian language."
-            },
-            "turk": {
-                "name": "Turkish",
-                "desc-1": "Courses for those who want to communicate freely in Turkish! You will learn to converse with native speakers, improve your pronunciation, easily understand speech by ear, and confidently maintain a conversation. During the course, you will learn to correctly construct sentences and idioms typical of the Turkish language. Master the basics of pronunciation and tones."
-            }
-        }
+    "open-your-potential": {
+      "title": "Unlock your potential with the SkillShift online school!",
+      "subtitle": "Study at your convenience from anywhere in the world! A flexible schedule, practical skills, and mentor support will help you reach your goals quickly.",
+      "whatsapp": "Message on WhatsApp"
     }
+  },
+  "contacts": {
+    "contacts-section": {
+      "title": "Contacts"
+    },
+    "our-brances-section": {
+      "title": "Our branches"
+    },
+    "information-section": {
+      "title": "Information",
+      "public-offer": "Public offer",
+      "privacy-policy": "Privacy policy"
+    }
+  },
+  "services-page": {
+    "breadcrumbs": {
+      "home": "Home",
+      "contacts": "Contacts",
+      "services": "Services"
+    }
+  },
+  "services": {
+    "per-month": "per month",
+    "text-whatsapp": "Text on WhatsApp",
+    "music-dance": {
+      "piano": {
+        "name": "Piano",
+        "desc-1": "You will master classical pieces, modern hits, or even learn to improvise. We focus not only on technique but also help develop musical ear and teach the fundamentals of music.",
+        "desc-2": "Join our classes and immerse yourself in the world of music with joy!"
+      },
+      "classic-guitar": {
+        "name": "Classical Guitar",
+        "desc-1": "In the lessons, you will learn the basics of playing, performance techniques, and music theory. You will learn to play your favorite pieces or explore classical works. We will help you develop diverse skills and musical taste.",
+        "desc-2": "Join our classes and discover the world of music on the classical guitar!"
+      },
+      "violin": {
+        "name": "Violin",
+        "desc-1": "In the lessons, you will master the basics of playing technique, music theory, and various performance styles. You will study classical pieces, practice ensemble playing, which will teach you to interact with other musicians.",
+        "desc-2": "Join our classes and discover the magic of playing the violin!"
+      },
+      "drums": {
+        "name": "Drums",
+        "desc-1": "You will learn basic rhythms and playing techniques. Classes are conducted by qualified instructors who will help you develop a sense of rhythm, coordination, and musical literacy.",
+        "desc-2": "Join us and start your journey into the world of percussion music!"
+      },
+      "domra": {
+        "name": "Domra",
+        "desc-1": "You will learn basic playing techniques, chords, and melodies, as well as master various performance styles. Experienced instructors will help you develop musical ear, technique, and a sense of rhythm.",
+        "desc-2": "Join us and discover the world of domra music!"
+      },
+      "choreography": {
+        "name": "Choreography",
+        "desc-1": "You will master classical elements, strengthen your feet and back, and prepare the foundation for other dance styles. Experienced instructors will help you develop flexibility, coordination, and a sense of rhythm.",
+        "desc-2": "Join us and unlock your dance potential!"
+      },
+      "hip-hop": {
+        "name": "Hip-Hop",
+        "desc-1": "You will master the main styles of hip-hop, such as breaking, locking, and popping, and learn to create your own choreographic combinations.",
+        "desc-2": "Join us and unleash your creativity in hip-hop dance!"
+      },
+      "tango": {
+        "name": "Tango",
+        "desc-1": "You will master the basic steps and techniques, learn to feel the music and interact with your partner. Experienced instructors will help you develop coordination and emotional expressiveness.",
+        "desc-2": "Join us and discover the magic of tango!"
+      },
+      "break-dance": {
+        "name": "Breakdance",
+        "desc-1": "You will master the basic elements of breakdance, including top-rock, down-rock, freezes, and pauses, and learn to create your own combinations. Experienced instructors will help you develop strength, flexibility, and coordination.",
+        "desc-2": "Join us and become part of the exciting world of breakdance!"
+      },
+      "shaffle": {
+        "name": "Shuffle",
+        "desc-1": "You will master the basic steps and techniques of shuffle and learn to combine them with various musical styles. Experienced instructors will help you develop a sense of rhythm and coordination.",
+        "desc-2": "Join us and discover the fascinating world of shuffle dance!"
+      },
+      "pop-vocals": {
+        "name": "Pop Vocals",
+        "desc-1": "You will master basic breathing, intonation, and articulation techniques, as well as learn to work with various musical styles. Experienced instructors will help you develop vocal abilities and musical ear.",
+        "desc-2": "Join us and start your journey to musical excellence!"
+      },
+      "classical-vocals": {
+        "name": "Classical Vocals",
+        "desc-1": "You will master basic breathing, intonation, and articulation techniques. Experienced instructors will help you develop vocal abilities and musical ear.",
+        "desc-2": "Join us and start your journey to musical excellence!"
+      }
+    },
+    "professions": {
+      "product-manager": {
+        "name": "Product Manager",
+        "desc-1": "The course combines theory and practice of digital product management at all stages of its development. You will master market, competitor, and target audience analysis using digital tools, as well as learn to manage the product lifecycle and coordinate the team effectively."
+      },
+      "java-back-end-developer": {
+        "name": "Java Back-End Developer",
+        "desc-1": "The course explores the Java programming language for creating the server side of websites and applications. You will master industry-standard frameworks and libraries, understand classes, inheritance, and interfaces, and study object-oriented programming, working with collections, exception handling, and multithreading."
+      },
+      "react-front-end-developer": {
+        "name": "React Front-End Developer",
+        "desc-1": "The course provides theoretical knowledge, practical skills, and modern approaches in developing interactive user interfaces using the JavaScript library — React. You will study data structure algorithms and the component-based approach in development for creating large components from smaller ones."
+      },
+      "flutter-mobile-developer": {
+        "name": "Flutter Mobile Developer",
+        "desc-1": "The course provides theoretical knowledge and practical skills in developing cross-platform mobile applications using the Flutter framework and the Draft programming language. You will learn to create applications for different operating systems and web applications using a single codebase, and master working with databases."
+      },
+      "ui-ux-designer ": {
+        "name": "UI/UX Designer",
+        "desc-1": "The course covers the basics of studying user experience and needs, as well as designing clear and convenient digital products. You will master all stages of the design process and the designer's role in each, study methods for researching the target audience, and tools for designing and prototyping necessary for the job."
+      },
+      "interior-exterior-designer": {
+        "name": "Interior and Exterior Designer",
+        "desc-1": "The course covers the basics of designing functional and aesthetic interiors. You will master creating conceptual sketches, drawings, and 3D visualizations in 3DsMax and Revit, and go through all stages — from developing a style concept to selecting furniture, materials, and lighting."
+      },
+      "fashion-designer": {
+        "name": "Fashion Designer",
+        "desc-1": "The course covers the basics and principles of creating fashion design and trends in the industry. You will study the process of creating sketches of clothing models and prints, including 3D modeling, learn to select materials and accessories, and explore all stages of designing, sewing, and launching production."
+      },
+      "furniture-designer": {
+        "name": "Furniture Designer",
+        "desc-1": "You will study the entire process of creating furniture — from the idea and 3D modeling in SketchUp to selecting materials and production technologies. Master the skills of designing stylish and practical interior items, relying on modern trends and the specifics of various materials."
+      }
+    },
+    "subjects": {
+      "biology": {
+        "name": "Biology",
+        "desc-1": "The biology course for secondary school is aimed at studying living nature, its patterns, and diversity. It covers the main sections of biology that help students understand the structure, functions, and interactions of living organisms, as well as their role in ecosystems."
+      },
+      "chemistry": {
+        "name": "Chemistry",
+        "desc-1": "The chemistry course for secondary school is aimed at studying substances, their properties, structure, and transformations. It introduces students to basic chemical concepts, laws, and processes, and develops skills in conducting experiments and solving problems."
+      },
+      "geography": {
+        "name": "Geography",
+        "desc-1": "The geography course for secondary school is aimed at forming students' understanding of the Earth's nature, population, economy, and environmental issues. It covers general geographical patterns and the characteristics of individual regions and countries."
+      },
+      "informatics": {
+        "name": "Informatics",
+        "desc-1": "The informatics course forms basic knowledge and skills in the field of information technology and computer work. It covers theoretical foundations and practical aspects necessary for understanding and using modern technologies."
+      },
+      "math": {
+        "name": "Mathematics",
+        "desc-1": "The mathematics course is aimed at developing logical thinking, problem-solving skills, and applying knowledge in everyday life. It covers the main sections of mathematics that form the foundation for further study of exact sciences."
+      },
+      "painting": {
+        "name": "Painting",
+        "desc-1": "The painting course for secondary school is aimed at forming students' understanding of artistic styles, techniques, outstanding masters, and their works. It covers the basics of fine art, the development of painting in different eras, and introduces the cultural heritage of various countries and peoples."
+      },
+      "physics": {
+        "name": "Physics",
+        "desc-1": "The physics course for secondary school is aimed at forming students' basic knowledge of physical phenomena, laws, and methods of studying them. It covers the main sections of physics that help understand the world around us and prepare for further education."
+      },
+      "robotics": {
+        "name": "Robotics",
+        "desc-1": "Master the creation and programming of robots: from the basics of electronics and mechanics to developing control algorithms. Learn to assemble functional models, work with microcontrollers and sensors."
+      }
+    },
+    "languages": {
+      "arab": {
+        "name": "Arabic",
+        "desc-1": "Arabic language courses are suitable for any level — from beginners to advanced. The program covers grammar, vocabulary, and the development of reading, writing, and listening skills. You will immerse yourself in different dialects, get acquainted with Arabic culture, and learn in an interactive format."
+      },
+      "chinese": {
+        "name": "Chinese",
+        "desc-1": "In Chinese language courses, you will not only master basic and grammatical structures. You will gain unique knowledge about Chinese writing, including characters. You will learn to read and write in Chinese, which is an element of deep understanding of culture and history. Master the basics of pronunciation and tones, which are especially important for perception and conveying meaning."
+      },
+      "english": {
+        "name": "English",
+        "desc-1": "Courses for people who want to communicate freely. You will learn to speak with foreigners and native speakers, improve your pronunciation, understand speech by ear, and confidently maintain a conversation in English. You will master basic conversational structures, expand your vocabulary, and overcome the language barrier. The classes include practical exercises."
+      },
+      "kazakh": {
+        "name": "Kazakh",
+        "desc-1": "Our online Kazakh language courses are an opportunity to learn one of the oldest and most beautiful languages in the world. The program is suitable for all levels — from beginners to advanced. The flexible learning format allows you to master the language at your convenience while immersing yourself in the culture and traditions of Kazakhstan. Special emphasis is placed on developing conversational skills."
+      },
+      "russian": {
+        "name": "Russian",
+        "desc-1": "We offer engaging and effective learning, specially designed for those who want to start learning Russian from scratch or improve their existing knowledge. Special attention is paid to developing oral communication skills. During the course, you will learn to correctly construct sentences typical of the Russian language."
+      },
+      "turk": {
+        "name": "Turkish",
+        "desc-1": "Courses for those who want to communicate freely in Turkish! You will learn to converse with native speakers, improve your pronunciation, easily understand speech by ear, and confidently maintain a conversation. During the course, you will learn to correctly construct sentences and idioms typical of the Turkish language. Master the basics of pronunciation and tones."
+      }
+    }
+  },
+  "privacy-page": {
+    "title": "PRIVACY POLICY",
+    "date": "14.12.2019",
+    "description": "This Privacy Policy (hereinafter – the Privacy Policy) applies to all information that the company «SkillShift», located at domain names skillshift.offiwebsite.com, may obtain about the User during the use of the site.",
+    "updated": "Updated on July 14, 2019",
+    "terminology-section": {
+      "title": "1. DEFINITION OF TERMS",
+      "terms": {
+        "1.1": "The following terms are used in this Privacy Policy:",
+        "1.1.1": "«Website Administration (hereinafter – Website Administration)» – authorized employees managing the website, acting on behalf of the Organization, who organize and/or carry out the processing of personal data, as well as determine the purposes of processing personal data, the composition of personal data subject to processing, and actions (operations) performed with personal data.",
+        "1.1.2": "«Personal data» – any information relating to an identified or identifiable individual (data subject).",
+        "1.1.3": "«Processing of personal data» – any action (operation) or set of actions (operations) performed with personal data using automation tools or without them, including collection, recording, systematization, accumulation, storage, clarification (updating, modification), extraction, use, transfer (distribution, provision, access), anonymization, blocking, deletion, destruction of personal data.",
+        "1.1.4": "«Confidentiality of personal data» – a mandatory requirement for the operator or other persons who have access to personal data not to disclose it without the consent of the data subject or other lawful basis.",
+        "1.1.5": "«Website user (hereinafter – User)» – a person who has access to the Website via the Internet and uses the Website.",
+        "1.1.6": "«Cookies» – small data fragments sent by a web server and stored on the user's computer, which the web client or browser transmits to the web server with each HTTP request when trying to open a page of the relevant site.",
+        "1.1.7": "«IP address» – a unique network address of a node in a computer network built on the IP protocol."
+      }
+    },
+    "conditions-sections": {
+      "title": "2. TERMS AND CONDITIONS AGREEMENT",
+      "terms": {
+        "2.1": "Using the site means the User agrees to this Privacy Policy and the terms of processing personal data.",
+        "2.2": "If you do not agree with the Privacy Policy, you should stop using the site.",
+        "2.3": "This Privacy Policy applies to all skillshift.offiwebsite.com sites («SkillShift»). The company does not control and is not responsible for third-party sites linked on the site.",
+        "2.4": "The site administration does not verify the accuracy of personal data provided by the User."
+      }
+    },
+    "subject-section": {
+      "title": "3. SUBJECT OF THE PRIVACY POLICY",
+      "terms": {
+        "3.1": "This Privacy Policy establishes the obligations of the Site Administration regarding non-disclosure and ensuring the confidentiality of personal data that the User provides at the request of the Site Administration when registering on the site or when placing an order to purchase the Goods.",
+        "3.2": "Personal data permitted for processing under this Privacy Policy is provided by the User by filling out the registration form on the website skillshift.offiwebsite.com and includes the following information:",
+        "3.2.1": "User's last name, first name, patronymic;",
+        "3.2.2": "User's contact phone number;",
+        "3.2.3": "email address.",
+        "3.3": {
+          "main": "The Site protects Data that is automatically transmitted when viewing advertising blocks and when visiting pages where the system's statistical script (\"pixel\") is installed:",
+          "items": {
+            "1": "IP address;",
+            "2": "information from cookies;",
+            "3": "information about the browser (or other program that accesses the ad display);",
+            "4": "access time;",
+            "5": "address of the page where the ad unit is located;",
+            "6": "referrer (address of the previous page)."
+          },
+          "subpoints": {
+            "1": "Disabling cookies may result in the inability to access parts of the site that require authorization.",
+            "2": "The online store collects statistics about the IP addresses of its visitors. This information is used to identify and resolve technical problems, to monitor the legality of financial transactions."
+          }
+        },
+        "3.4": "Any other personal information not mentioned above (usage history, browsers and operating systems used, etc.) is subject to secure storage and non-disclosure, except as provided in clauses 5.2. and 5.3. of this Privacy Policy."
+      }
+    },
+    "target-section": {
+      "title": "4. PURPOSES OF COLLECTING USER'S PERSONAL INFORMATION",
+      "terms": {
+        "4.1": "The Site Administration may use the User's personal data for the following purposes:",
+        "4.1.1": "Identifying the User registered on the website for making purchases and/or concluding a remote sales agreement with SkillShift.",
+        "4.1.2": "Providing the User with access to personalized website resources.",
+        "4.1.3": "Establishing feedback with the User, including sending notifications, inquiries regarding the use of the Site, provision of services, processing requests and applications from the User.",
+        "4.1.4": "Determining the User's location for security purposes and fraud prevention.",
+        "4.1.5": "Verifying the accuracy and completeness of personal data provided by the User.",
+        "4.1.6": "Processing and receiving payments, confirming tax or tax benefits, disputing payments, determining the User's eligibility for a credit line.",
+        "4.1.7": "Providing the User with effective customer and technical support when problems arise related to the use of the Site.",
+        "4.1.8": "Providing the User, with their consent, with product updates, special offers, pricing information, newsletters and other information on behalf of the website or its partners.",
+        "4.1.9": "Providing the User with access to partner websites or services to obtain products, updates and services."
+      }
+    },
+    "way-section": {
+      "title": "5. METHODS AND TERMS OF PERSONAL DATA PROCESSING",
+      "terms": {
+        "5.1": "Processing of the User's personal data is carried out without time limit, by any lawful means, including in personal data information systems with or without automation tools.",
+        "5.2": "The User agrees that the Site Administration has the right to transfer personal data to third parties, in particular, courier services, postal organizations, telecommunications operators, solely for the purpose of fulfilling the User's order placed on the online store website «Store Name», including delivery of the Goods.",
+        "5.3": "The User's personal data may be transferred to authorized state authorities of the Republic of Kazakhstan only on the grounds and in the manner established by the legislation of the Republic of Kazakhstan.",
+        "5.4": "In case of loss or disclosure of personal data, the Site Administration informs the User about the loss or disclosure of personal data.",
+        "5.5": "The Site Administration takes necessary organizational and technical measures to protect the User's personal information from unlawful or accidental access, destruction, alteration, blocking, copying, distribution, as well as from other unlawful actions of third parties.",
+        "5.6": "The Site Administration together with the User takes all necessary measures to prevent losses or other negative consequences caused by the loss or disclosure of the User's personal data."
+      }
+    },
+    "obligation-section": {
+      "title": "6. OBLIGATIONS OF THE PARTIES",
+      "terms": {
+        "6.1": "The User shall:",
+        "6.1.1": "Provide personal data information required for using the Website.",
+        "6.1.2": "Update or supplement the provided personal data information in case of changes.",
+        "6.2": "The Site Administration shall:",
+        "6.2.1": "Use the obtained information solely for the purposes specified in clause 4 of this Privacy Policy.",
+        "6.2.2": "Ensure the confidentiality of information, not disclose it without the User's prior written consent, and not sell, exchange, publish, or otherwise disclose the User's personal data, except as provided in clauses 5.2 and 5.3 of this Privacy Policy.",
+        "6.2.3": "Take precautionary measures to protect the confidentiality of the User's personal data according to the procedures normally used to protect this type of information in existing business practices.",
+        "6.2.4": "Block personal data related to the respective User from the moment of request by the User or their legal representative or authorized body for personal data protection rights for the verification period, in case of identification of inaccurate personal data or unlawful actions."
+      }
+    },
+    "responsibility-section": {
+      "title": "7. LIABILITY OF THE PARTIES",
+      "terms": {
+        "7.1": "The Site Administration that fails to fulfill its obligations shall be liable for losses incurred by the User due to unlawful use of personal data in accordance with the legislation of the Republic of Kazakhstan, except as provided in clauses 5.2., 5.3. and 7.2. of this Privacy Policy.",
+        "7.2": "In case of loss or disclosure of Confidential Information, the Site Administration shall not be liable if such confidential information:",
+        "7.2.1": "Became public domain before its loss or disclosure.",
+        "7.2.2": "Was received from a third party before it was received by the Site Administration.",
+        "7.2.3": "Was disclosed with the User's consent."
+      }
+    },
+    "dispute-section": {
+      "title": "8. DISPUTE RESOLUTION",
+      "terms": {
+        "8.1": "Before filing a lawsuit regarding disputes arising from the relationship between the Site User and the Site Administration, it is mandatory to submit a written claim (a written proposal for voluntary dispute settlement).",
+        "8.2": "The recipient of the claim shall notify the claimant in writing about the results of the claim review within 30 calendar days from the date of receiving the claim.",
+        "8.3": "If no agreement is reached, the dispute shall be referred to the judicial authorities in accordance with the current legislation of the Republic of Kazakhstan.",
+        "8.4": "The current legislation of the Republic of Kazakhstan shall apply to this Privacy Policy and the relations between the User and the Site Administration."
+      }
+    },
+    "addition-section": {
+      "title": "9. ADDITIONAL TERMS",
+      "terms": {
+        "9.1": "The Site Administration reserves the right to modify this Privacy Policy without the User's consent.",
+        "9.2": "The new Privacy Policy comes into effect from the moment it is published on the Website, unless otherwise specified in the new version of the Privacy Policy.",
+        "9.3": "All suggestions or questions regarding this Privacy Policy should be directed to [specify the relevant section of the e-commerce website].",
+        "9.4": "The current Privacy Policy is available on the page at: https://skillshift.offiwebsite.com/privacy-policy."
+      }
+    }
+  }
 }
