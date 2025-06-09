@@ -12,6 +12,7 @@ import { TranslationProvider } from "@/components/translationProvieder/Translati
 
 
 export const metadata: Metadata = {
+  title: "SkillShift",
   icons: {
     icon: '/favicon.svg'
   }
