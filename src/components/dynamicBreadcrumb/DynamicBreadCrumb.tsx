@@ -9,7 +9,6 @@ import {
     BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb';
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const capitalize = (str: string) =>

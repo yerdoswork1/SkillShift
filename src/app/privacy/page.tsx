@@ -9,7 +9,6 @@ import SubjectSection from "@/components/pages/privacy/SubjectSection";
 import TargetSection from "@/components/pages/privacy/TargetSection";
 import TerminSection from "@/components/pages/privacy/TerminsSection";
 import WaySection from "@/components/pages/privacy/WaySection";
-import Link from "next/link";
 import React from "react";
 import { useTranslation } from "react-i18next";
 

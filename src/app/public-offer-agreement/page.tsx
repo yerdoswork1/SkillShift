@@ -8,12 +8,20 @@ import React from "react";
 type ListItem =
   | string
   | { type: "ul"; items: ListItem[] }
-  | { type: string; items: string[] } 
+  | { type: string; items: string[] }
   | { type: string; text: string };
 
-function isUlItem(item: any): item is { type: "ul"; items: (ListItem | string)[] } {
-  return item?.type === "ul" && Array.isArray(item.items);
+function isUlItem(item: unknown): item is { type: "ul"; items: (ListItem | string)[] } {
+  return (
+    typeof item === "object" &&
+    item !== null &&
+    "type" in item &&
+    (item as { type: unknown }).type === "ul" &&
+    "items" in item &&
+    Array.isArray((item as { items: unknown }).items)
+  );
 }
+
 
 export default function PublicOfferAgreement() {
 
@@ -38,9 +46,8 @@ export default function PublicOfferAgreement() {
   function renderList(items: (ListItem | string)[], level = 0) {
     return (
       <ul
-        className={`mb-[40px] text-[28px] max-[1440px]:text-[24px] max-[768px]:text-[15px] max-[375px]:text-[12px] ${
-          level > 0 ? "mt-2" : ""
-        }`}
+        className={`mb-[40px] text-[28px] max-[1440px]:text-[24px] max-[768px]:text-[15px] max-[375px]:text-[12px] ${level > 0 ? "mt-2" : ""
+          }`}
       >
         {items.map((li, i) => {
           if (typeof li === "string") {
@@ -57,7 +64,7 @@ export default function PublicOfferAgreement() {
       </ul>
     );
   }
-  
+
   return (
     <div className="px-[38px] py-[40px] max-[1440px]:py-[20px] max-[1440px]:px-0 max-[768px]:py-[5px] max-[375px]:py-[10px]">
       {offerContent.map((item, index) => {
@@ -80,7 +87,7 @@ export default function PublicOfferAgreement() {
                 {item.text}
               </h2>
             );
-           case "ul":
+          case "ul":
             return <React.Fragment key={index}>{renderList(item.items ?? [])}</React.Fragment>;
           case "group":
             return (
