@@ -22,6 +22,12 @@ import UiUxDesignerImg from "@/assets/services/professions/ui-ux-designer.png"
 import InteriorExteriorDesignerImg from "@/assets/services/professions/interior-exterior-designer.png"
 import FashionDesignerImg from "@/assets/services/professions/fashion-designer.png"
 import FurnitureDesignerImg from "@/assets/services/professions/furniture-designer.png"
+import PythonBasicsImg from "@/assets/services/professions/python-basics.png"
+import PhpBackEndDeveloperImg from "@/assets/services/professions/php-back-end-developer.png"
+import QaManualImg from "@/assets/services/professions/qa-manual.png"
+import QaAutomationImg from "@/assets/services/professions/qa-automation.png"
+
+
 
 import BiologyImg from "@/assets/services/subjects/biology.png"
 import ChemistryImg from "@/assets/services/subjects/chemistry.png"
@@ -236,6 +242,16 @@ const services: ServiceCategory[] = [
                 ]
             },
             { 
+                id:"python-basics",
+                name: "Основы программирования на Python", 
+                price: "50000", 
+                image: PythonBasicsImg,
+
+                description: [
+                    "Курс познакомит вас с основами Python — одного из самых универсальных и востребованных языков в мире. Программа идеально подойдёт новичкам: вы шаг за шагом освоите базовые конструкции, научитесь писать простые программы, разберётесь с логикой кода и начнёте думать как разработчик.",
+                ]
+            },
+            { 
                 id:"java-back-end-developer", 
                 name: "Java back-end developer", 
                 price: "50000", 
@@ -243,6 +259,16 @@ const services: ServiceCategory[] = [
 
                 description: [
                     "Курс изучает язык программирования Java для создания серверной части сайтов и приложений. Освоите стандартные для индустрии фреймворки и библиотеки, разберетесь в классках, наследованиях и интерфейсах, изучите объектно-ориентированное программирование, работу с коллекциями, обработку исключений и многопоточность."
+                ]
+            },
+            { 
+                id:"php-back-end-developer",
+                name: "Back-end разработка на PHP", 
+                price: "50000", 
+                image: PhpBackEndDeveloperImg,
+
+                description: [
+                    "Курс для тех, кто хочет стать веб-разработчиком и начать с надёжного и понятного языка. Вы изучите основы PHP, научитесь работать с базами данных, создавать серверную логику и строить API. Подходит для начинающих и тех, кто хочет перейти в back-end.",
                 ]
             },
             { 
@@ -263,6 +289,26 @@ const services: ServiceCategory[] = [
 
                 description: [
                     "Курс предоставляет теоретические знания и практические навыки в разработке кросс-платформенных мобильных приложений с помощью фреймворка Flutter на языке программирования Draft. Научитесь создавать приложений для разных операционных систем, и веб-приложений, используя единую кодовую базу, освоите работу с базами данных."
+                ]
+            },
+            { 
+                id:"qa-manual",
+                name: "Основы ручного тестирования QA Manual", 
+                price: "50000", 
+                image: QaManualImg,
+
+                description: [
+                    "Курс для тех, кто хочет начать карьеру в IT без программирования. Вы изучите, как проверять качество продукта, находить ошибки, работать с тест-кейсами и чек-листами. Научитесь тестировать веб-сайты и мобильные приложения вручную. Подходит для новичков.",
+                ]
+            },
+            { 
+                id:"qa-automation",
+                name: "Основы ручного тестирования QA Automation", 
+                price: "50000", 
+                image: QaAutomationImg,
+
+                description: [
+                    "Курс для тех, кто хочет начать карьеру в тестировании и научиться писать автотесты. Вы освоите основы Python и научитесь применять его для автоматизации тестирования. Познакомитесь с фреймворками, научитесь работать с браузером и запускать автотесты. Подходит для начинающих.",
                 ]
             },
             { 
