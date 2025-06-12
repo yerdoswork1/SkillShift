@@ -31,6 +31,10 @@ export default function ServicePage({ serviceCategoryId, serviceId }: Props) {
         { link: `/services/${serviceCategoryId}`, name: t(`services.${serviceCategory!.id}.${serviceInfo!.id}.name`), lastItem: true },
     ];
 
+    const h1 = i18n.exists(`services.${serviceCategoryId}.${serviceId}.name-full`) 
+    ? t(`services.${serviceCategoryId}.${serviceId}.name-full`)
+    : t(`services.${serviceCategoryId}.${serviceId}.name`);
+
     return (
         <div className='py-8'>
             <BreadcrumbComponent links={breadCrumbList} />
@@ -53,7 +57,7 @@ export default function ServicePage({ serviceCategoryId, serviceId }: Props) {
                 <div className='md:w-[55%] md:min-h-70 flex flex-col justify-between gap-3 md:gap-3'>
                     <div className='flex flex-col md:gap-4 xl:gap-7'>
                         <h1 className='font-bold xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-base '>
-                            {t(`services.${serviceCategoryId}.${serviceId}.name`)}
+                            { h1 }
                         </h1>
 
                         {/* description */}
