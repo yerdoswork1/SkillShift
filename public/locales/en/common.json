@@ -129,38 +129,57 @@
       }
     },
     "professions": {
-      "product-manager": {
-        "name": "Product Manager",
-        "desc-1": "The course combines theory and practice of digital product management at all stages of its development. You will master market, competitor, and target audience analysis using digital tools, as well as learn to manage the product lifecycle and coordinate the team effectively."
-      },
-      "java-back-end-developer": {
-        "name": "Java Back-End Developer",
-        "desc-1": "The course explores the Java programming language for creating the server side of websites and applications. You will master industry-standard frameworks and libraries, understand classes, inheritance, and interfaces, and study object-oriented programming, working with collections, exception handling, and multithreading."
-      },
-      "react-front-end-developer": {
-        "name": "React Front-End Developer",
-        "desc-1": "The course provides theoretical knowledge, practical skills, and modern approaches in developing interactive user interfaces using the JavaScript library — React. You will study data structure algorithms and the component-based approach in development for creating large components from smaller ones."
-      },
-      "flutter-mobile-developer": {
-        "name": "Flutter Mobile Developer",
-        "desc-1": "The course provides theoretical knowledge and practical skills in developing cross-platform mobile applications using the Flutter framework and the Draft programming language. You will learn to create applications for different operating systems and web applications using a single codebase, and master working with databases."
-      },
-      "ui-ux-designer ": {
-        "name": "UI/UX Designer",
-        "desc-1": "The course covers the basics of studying user experience and needs, as well as designing clear and convenient digital products. You will master all stages of the design process and the designer's role in each, study methods for researching the target audience, and tools for designing and prototyping necessary for the job."
-      },
-      "interior-exterior-designer": {
-        "name": "Interior and Exterior Designer",
-        "desc-1": "The course covers the basics of designing functional and aesthetic interiors. You will master creating conceptual sketches, drawings, and 3D visualizations in 3DsMax and Revit, and go through all stages — from developing a style concept to selecting furniture, materials, and lighting."
-      },
-      "fashion-designer": {
-        "name": "Fashion Designer",
-        "desc-1": "The course covers the basics and principles of creating fashion design and trends in the industry. You will study the process of creating sketches of clothing models and prints, including 3D modeling, learn to select materials and accessories, and explore all stages of designing, sewing, and launching production."
-      },
-      "furniture-designer": {
-        "name": "Furniture Designer",
-        "desc-1": "You will study the entire process of creating furniture — from the idea and 3D modeling in SketchUp to selecting materials and production technologies. Master the skills of designing stylish and practical interior items, relying on modern trends and the specifics of various materials."
-      }
+        "product-manager": {
+            "name": "Product Manager",
+            "desc-1": "The course combines theory and practice of digital product management at all stages of its development. You will master market, competitor, and target audience analysis using digital tools, as well as learn to manage the product lifecycle and coordinate the team effectively."
+        },
+        "java-back-end-developer": {
+            "name": "Java Back-End Developer",
+            "desc-1": "The course explores the Java programming language for creating the server side of websites and applications. You will master industry-standard frameworks and libraries, understand classes, inheritance, and interfaces, and study object-oriented programming, working with collections, exception handling, and multithreading."
+        },
+        "react-front-end-developer": {
+            "name": "React Front-End Developer",
+            "desc-1": "The course provides theoretical knowledge, practical skills, and modern approaches in developing interactive user interfaces using the JavaScript library — React. You will study data structure algorithms and the component-based approach in development for creating large components from smaller ones."
+        },
+        "flutter-mobile-developer": {
+            "name": "Flutter Mobile Developer",
+            "desc-1": "The course provides theoretical knowledge and practical skills in developing cross-platform mobile applications using the Flutter framework and the Draft programming language. You will learn to create applications for different operating systems and web applications using a single codebase, and master working with databases."
+        },
+        "ui-ux-designer ": {
+            "name": "UI/UX Designer",
+            "desc-1": "The course covers the basics of studying user experience and needs, as well as designing clear and convenient digital products. You will master all stages of the design process and the designer's role in each, study methods for researching the target audience, and tools for designing and prototyping necessary for the job."
+        },
+        "interior-exterior-designer": {
+            "name": "Interior and Exterior Designer",
+            "desc-1": "The course covers the basics of designing functional and aesthetic interiors. You will master creating conceptual sketches, drawings, and 3D visualizations in 3DsMax and Revit, and go through all stages — from developing a style concept to selecting furniture, materials, and lighting."
+        },
+        "fashion-designer": {
+            "name": "Fashion Designer",
+            "desc-1": "The course covers the basics and principles of creating fashion design and trends in the industry. You will study the process of creating sketches of clothing models and prints, including 3D modeling, learn to select materials and accessories, and explore all stages of designing, sewing, and launching production."
+        },
+        "furniture-designer": {
+            "name": "Furniture Designer",
+            "desc-1": "You will study the entire process of creating furniture — from the idea and 3D modeling in SketchUp to selecting materials and production technologies. Master the skills of designing stylish and practical interior items, relying on modern trends and the specifics of various materials."
+        },
+        "python-basics": {
+            "name": "Python Basics",
+            "desc-1": "This course will introduce you to the fundamentals of Python - one of the most versatile and in-demand programming languages in the world. The program is perfect for beginners: you'll step by step master basic constructs, learn to write simple programs, understand code logic, and start thinking like a developer."
+        },
+        "php-back-end-developer": {
+            "name": "PHP back-end developer",
+            "name-full": "Back-end Development with PHP",
+            "desc-1": "A course for those who want to become a web developer starting with a reliable and understandable language. You'll learn PHP fundamentals, work with databases, create server-side logic, and build APIs. Suitable for beginners and those looking to transition into back-end development."
+        },
+        "qa-manual": {
+            "name": "QA Manual",
+            "name-full": "Fundamentals of Manual QA Testing",
+            "desc-1": "A course for those who want to start an IT career without programming. You'll learn how to check product quality, find bugs, work with test cases and checklists. You'll master manual testing of websites and mobile applications. Suitable for beginners."
+        },
+        "qa-automation": {
+            "name": "QA Automation",
+            "name-full": "Fundamentals of QA Automation Testing",
+            "desc-1": "A course for those who want to start a career in testing and learn to write automated tests. You'll master Python basics and learn to apply it for test automation. You'll get acquainted with frameworks, learn to work with browsers and run automated tests. Suitable for beginners."
+        }
     },
     "subjects": {
       "biology": {
