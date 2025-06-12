@@ -1,43 +1,21 @@
-
+// app/layout.tsx
 import type { Metadata } from "next";
 import { inter } from "@/assets/fonts/fonts";
 import "./globals.css";
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
-import Layout from "@/components/layout/Layout";
-import Navbar from "@/components/navbar/Navbar";
-import '@/lib/i18n';
-import { TranslationProvider } from "@/components/translationProvieder/TranslationProvider";
-
-
+import "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: "SkillShift",
   icons: {
-    icon: '/favicon.svg'
-  }
+    icon: "/favicon.svg",
+  },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ru" >
-      <body
-        className={`${inter.className} antialiased flex flex-col min-h-screen `} 
-      >
-        <TranslationProvider>
-          <Header />
-          <main className="flex-grow" >
-            <Layout>
-              {children}
-              <Navbar />
-            </Layout>
-          </main>
-          <Footer />
-        </TranslationProvider>
+    <html lang="ru">
+      <body className={`${inter.className} antialiased flex flex-col min-h-screen`}>
+        {children}
       </body>
     </html>
   );
