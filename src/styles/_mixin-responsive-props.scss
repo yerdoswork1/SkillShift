@@ -1,0 +1,32 @@
+// Брейкпоинты
+$breakpoints: (
+  xs: 375px,
+  md: 768px,
+  lg: 1440px,
+  xl: 1920px
+);
+
+// Миксин для адаптивного свойства
+@mixin responsive-prop($property, $xs: null, $md: null, $lg: null, $xl: null) {
+  @if $xs !=null {
+    #{$property}: $xs;
+  }
+
+  @if $md !=null {
+    @media (min-width: map-get($breakpoints, md)) {
+      #{$property}: $md;
+    }
+  }
+
+  @if $lg !=null {
+    @media (min-width: map-get($breakpoints, lg)) {
+      #{$property}: $lg;
+    }
+  }
+
+  @if $xl !=null {
+    @media (min-width: map-get($breakpoints, xl)) {
+      #{$property}: $xl;
+    }
+  }
+}

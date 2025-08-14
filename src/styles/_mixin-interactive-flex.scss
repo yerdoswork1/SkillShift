@@ -1,0 +1,92 @@
+// Брейкпоинты в стиле Tailwind
+$breakpoints: (
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+  2xl: 1536px,
+  3xl: 1720px,
+  4xl: 1920px,
+  5xl: 2200px
+);
+
+// Миксин для flex + gap + hover
+@mixin flex-with-gap($gap: null, // gap по умолчанию
+
+  $gap-sm: null,
+  $gap-md: null,
+  $gap-lg: null,
+  $gap-xl: null,
+  $gap-2xl: null,
+  $gap-3xl: null,
+  $gap-4xl: null,
+  $gap-5xl: null,
+  $align: center,
+  $justify: null,
+  $hover-color: null) {
+  display: flex;
+  align-items: $align;
+
+  @if $justify {
+    justify-content: $justify;
+  }
+
+  @if $gap {
+    column-gap: $gap;
+  }
+
+  // Генерация медиазапросов
+  @if $gap-sm {
+    @media (min-width: map-get($breakpoints, sm)) {
+      column-gap: $gap-sm;
+    }
+  }
+
+  @if $gap-md {
+    @media (min-width: map-get($breakpoints, md)) {
+      column-gap: $gap-md;
+    }
+  }
+
+  @if $gap-lg {
+    @media (min-width: map-get($breakpoints, lg)) {
+      column-gap: $gap-lg;
+    }
+  }
+
+  @if $gap-xl {
+    @media (min-width: map-get($breakpoints, xl)) {
+      column-gap: $gap-xl;
+    }
+  }
+
+  @if $gap-2xl {
+    @media (min-width: map-get($breakpoints, 2xl)) {
+      column-gap: $gap-2xl;
+    }
+  }
+
+  @if $gap-3xl {
+    @media (min-width: map-get($breakpoints, 3xl)) {
+      column-gap: $gap-3xl;
+    }
+  }
+
+  @if $gap-4xl {
+    @media (min-width: map-get($breakpoints, 4xl)) {
+      column-gap: $gap-4xl;
+    }
+  }
+
+  @if $gap-5xl {
+    @media (min-width: map-get($breakpoints, 5xl)) {
+      column-gap: $gap-5xl;
+    }
+  }
+
+  @if $hover-color {
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}

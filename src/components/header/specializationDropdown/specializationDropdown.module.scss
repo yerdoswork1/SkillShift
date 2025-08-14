@@ -1,0 +1,76 @@
+@use '@/styles/mixin-interactive-flex' as *;
+@use "@/styles/mixin-responsive-props" as *;
+
+.hidden {
+  display: none;
+  position: relative;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.headerBtn {
+  cursor: pointer;
+
+  @include flex-with-gap(null, // gap по умолчанию
+    null, // sm
+    0.625rem, // md:gap-x-2.5
+    null, // lg
+    1.25rem, // xl:gap-x-5
+    null, // 2xl
+    null, // 3xl
+    null, // 4xl
+    null, // 5xl
+    center, // align-items
+    null, // justify-content
+    rgb(60, 58, 223) // hover color
+  );
+}
+
+.icon {
+  transition: transform 0.2s;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+.nav {
+  position: absolute;
+  display: none;
+  left: 30%;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.03),
+    0 2px 2px rgba(0, 0, 0, 0.03),
+    0 5px 3px rgba(0, 0, 0, 0.02);
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  @include responsive-prop(padding-left, null, 0.875rem, 1.25rem, 1.75rem);
+  @include responsive-prop(padding-right, null, 0.875rem, 1.25rem, 1.75rem);
+  @include responsive-prop(padding-bottom, null, 0.75rem, 1.25rem, 1.75rem);
+
+  @include responsive-prop(top, 59px, 60px, 62px, 64px);
+  @include responsive-prop(width, 8rem, 8.75rem, 13.625rem, 16rem);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+
+  @include responsive-prop(row-gap, md 0.625rem, xl 1rem, 2xl 1.25rem);
+}
+
+.item {
+  &:hover {
+    color: rgb(60, 58, 223);
+  }
+}
