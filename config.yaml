@@ -1,0 +1,9 @@
+name: Local Assistant
+version: 1.0.0
+schema: v1
+models:
+  - name: deepseek-r1
+    provider: openrouter
+    model: deepseek/deepseek-r1-0528:free
+    apiBase: https://openrouter.ai/api/v1
+    apiKey: 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
