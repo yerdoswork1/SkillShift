@@ -1,0 +1,70 @@
+@use "@/styles/mixin-font" as *;
+
+@use "@/styles/mixin-layout" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  padding-left: 0.625rem; // px-2.5
+  padding-right: 0.625rem;
+  padding-top: 1.75rem; // py-7
+  padding-bottom: 1.75rem;
+  color: rgb(35, 34, 34);
+  font-weight: 400; // font-normal
+
+  // Сначала пишем box-shadow, чтобы не словить mixed-decls warning
+  box-shadow:
+    0px 1px 1px 0px rgba(0, 0, 0, 0.03),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.03),
+    0px 5px 3px 0px rgba(0, 0, 0, 0.02),
+    0px 9px 4px 0px rgba(0, 0, 0, 0),
+    0px 14px 4px 0px rgba(0, 0, 0, 0);
+
+  // text-base
+  @include text-size("base");
+
+  @media (min-width: 640px) {
+    // sm:px-0
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media (min-width: 768px) {
+    // md:text-xs
+    @include text-size("xs");
+  }
+
+  @media (min-width: 1280px) {
+    // xl:text-xl
+    @include text-size("xl");
+  }
+
+  @media (min-width: 1536px) {
+    // 2xl:text-2xl
+    @include text-size("2xl");
+  }
+}
+
+.container {
+  @include container-layout;
+}
+
+.containerItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerLink {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    column-gap: 0.625rem;
+  }
+
+  @media (min-width: 1280px) {
+    column-gap: 2.5rem;
+  }
+}

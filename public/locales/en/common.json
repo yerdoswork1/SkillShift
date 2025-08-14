@@ -1,0 +1,205 @@
+{
+    "header": {
+        "contacts": "Contacts",
+        "directions": "Directions",
+        "professions": "Professions",
+        "subjects": "Subjects",
+        "languages": "Languages",
+        "music-and-dance": "Music and dance",
+        "music-dance": "Music and dance",
+        "save": "Save"
+    },
+    "navbar": {
+        "home": "Home",
+        "services": "Services",
+        "contacts": "Contacts"
+    },
+    "footer": {
+        "info": "Information",
+        "privacy": "Privacy Policy",
+        "public-offer": "Public Offer",
+        "contacts": "Contacts",
+        "all-rights-reserved": "All rights reserved"
+    },
+    "home-page": {
+        "hero-section": {
+            "title": "Learn Chinese ",
+            "in-ease": "with\u00a0ease",
+            "subtitle": "SkillShift — knowledge for life and career.",
+            "whatsapp": "Message on WhatsApp"
+        },
+        "direction-carousel-section": {
+            "directions": "Directions",
+            "see-all": "See all",
+            "professions": "Professions",
+            "subjects": "Subjects",
+            "languages": "Languages",
+            "music-and-dance": "Music and dance"        },
+        "open-your-potential": {
+            "title": "Unlock your potential with the SkillShift online school!",
+            "subtitle": "Study at your convenience from anywhere in the world! A flexible schedule, practical skills, and mentor support will help you reach your goals quickly.",
+            "whatsapp": "Message on WhatsApp"
+        }
+    },
+    "services": {
+        "per-month": "per month",
+        "text-whatsapp": "Text on WhatsApp",
+        "music-dance": {
+            "piano": {
+                "name": "Piano",
+                "desc-1": "You will master classical pieces, modern hits, or even learn to improvise. We focus not only on technique but also help develop musical ear and teach the fundamentals of music.",
+                "desc-2": "Join our classes and immerse yourself in the world of music with joy!"
+            },
+            "classic-guitar": {
+                "name": "Classical Guitar",
+                "desc-1": "In the lessons, you will learn the basics of playing, performance techniques, and music theory. You will learn to play your favorite pieces or explore classical works. We will help you develop diverse skills and musical taste.",
+                "desc-2": "Join our classes and discover the world of music on the classical guitar!"
+            },
+            "violin": {
+                "name": "Violin",
+                "desc-1": "In the lessons, you will master the basics of playing technique, music theory, and various performance styles. You will study classical pieces, practice ensemble playing, which will teach you to interact with other musicians.",
+                "desc-2": "Join our classes and discover the magic of playing the violin!"
+            },
+            "drums": {
+                "name": "Drums",
+                "desc-1": "You will learn basic rhythms and playing techniques. Classes are conducted by qualified instructors who will help you develop a sense of rhythm, coordination, and musical literacy.",
+                "desc-2": "Join us and start your journey into the world of percussion music!"
+            },
+            "domra": {
+                "name": "Domra",
+                "desc-1": "You will learn basic playing techniques, chords, and melodies, as well as master various performance styles. Experienced instructors will help you develop musical ear, technique, and a sense of rhythm.",
+                "desc-2": "Join us and discover the world of domra music!"
+            },
+            "choreography": {
+                "name": "Choreography",
+                "desc-1": "You will master classical elements, strengthen your feet and back, and prepare the foundation for other dance styles. Experienced instructors will help you develop flexibility, coordination, and a sense of rhythm.",
+                "desc-2": "Join us and unlock your dance potential!"
+            },
+            "hip-hop": {
+                "name": "Hip-Hop",
+                "desc-1": "You will master the main styles of hip-hop, such as breaking, locking, and popping, and learn to create your own choreographic combinations.",
+                "desc-2": "Join us and unleash your creativity in hip-hop dance!"
+            },
+            "tango": {
+                "name": "Tango",
+                "desc-1": "You will master the basic steps and techniques, learn to feel the music and interact with your partner. Experienced instructors will help you develop coordination and emotional expressiveness.",
+                "desc-2": "Join us and discover the magic of tango!"
+            },
+            "break-dance": {
+                "name": "Breakdance",
+                "desc-1": "You will master the basic elements of breakdance, including top-rock, down-rock, freezes, and pauses, and learn to create your own combinations. Experienced instructors will help you develop strength, flexibility, and coordination.",
+                "desc-2": "Join us and become part of the exciting world of breakdance!"
+            },
+            "shaffle": {
+                "name": "Shuffle",
+                "desc-1": "You will master the basic steps and techniques of shuffle and learn to combine them with various musical styles. Experienced instructors will help you develop a sense of rhythm and coordination.",
+                "desc-2": "Join us and discover the fascinating world of shuffle dance!"
+            },
+            "pop-vocals": {
+                "name": "Pop Vocals",
+                "desc-1": "You will master basic breathing, intonation, and articulation techniques, as well as learn to work with various musical styles. Experienced instructors will help you develop vocal abilities and musical ear.",
+                "desc-2": "Join us and start your journey to musical excellence!"
+            },
+            "classical-vocals": {
+                "name": "Classical Vocals",
+                "desc-1": "You will master basic breathing, intonation, and articulation techniques. Experienced instructors will help you develop vocal abilities and musical ear.",
+                "desc-2": "Join us and start your journey to musical excellence!"
+            }
+        },
+        "professions": {
+            "product-manager": {
+                "name": "Product Manager",
+                "desc-1": "The course combines theory and practice of digital product management at all stages of its development. You will master market, competitor, and target audience analysis using digital tools, as well as learn to manage the product lifecycle and coordinate the team effectively."
+            },
+            "java-back-end-developer": {
+                "name": "Java Back-End Developer",
+                "desc-1": "The course explores the Java programming language for creating the server side of websites and applications. You will master industry-standard frameworks and libraries, understand classes, inheritance, and interfaces, and study object-oriented programming, working with collections, exception handling, and multithreading."
+            },
+            "react-front-end-developer": {
+                "name": "React Front-End Developer",
+                "desc-1": "The course provides theoretical knowledge, practical skills, and modern approaches in developing interactive user interfaces using the JavaScript library — React. You will study data structure algorithms and the component-based approach in development for creating large components from smaller ones."
+            },
+            "flutter-mobile-developer": {
+                "name": "Flutter Mobile Developer",
+                "desc-1": "The course provides theoretical knowledge and practical skills in developing cross-platform mobile applications using the Flutter framework and the Draft programming language. You will learn to create applications for different operating systems and web applications using a single codebase, and master working with databases."
+            },
+            "ui-ux-designer ": {
+                "name": "UI/UX Designer",
+                "desc-1": "The course covers the basics of studying user experience and needs, as well as designing clear and convenient digital products. You will master all stages of the design process and the designer's role in each, study methods for researching the target audience, and tools for designing and prototyping necessary for the job."
+            },
+            "interior-exterior-designer": {
+                "name": "Interior and Exterior Designer",
+                "desc-1": "The course covers the basics of designing functional and aesthetic interiors. You will master creating conceptual sketches, drawings, and 3D visualizations in 3DsMax and Revit, and go through all stages — from developing a style concept to selecting furniture, materials, and lighting."
+            },
+            "fashion-designer": {
+                "name": "Fashion Designer",
+                "desc-1": "The course covers the basics and principles of creating fashion design and trends in the industry. You will study the process of creating sketches of clothing models and prints, including 3D modeling, learn to select materials and accessories, and explore all stages of designing, sewing, and launching production."
+            },
+            "furniture-designer": {
+                "name": "Furniture Designer",
+                "desc-1": "You will study the entire process of creating furniture — from the idea and 3D modeling in SketchUp to selecting materials and production technologies. Master the skills of designing stylish and practical interior items, relying on modern trends and the specifics of various materials."
+            }
+        },
+        "subjects": {
+            "biology": {
+                "name": "Biology",
+                "desc-1": "The biology course for secondary school is aimed at studying living nature, its patterns, and diversity. It covers the main sections of biology that help students understand the structure, functions, and interactions of living organisms, as well as their role in ecosystems."
+            },
+            "chemistry": {
+                "name": "Chemistry",
+                "desc-1": "The chemistry course for secondary school is aimed at studying substances, their properties, structure, and transformations. It introduces students to basic chemical concepts, laws, and processes, and develops skills in conducting experiments and solving problems."
+            },
+            "geography": {
+                "name": "Geography",
+                "desc-1": "The geography course for secondary school is aimed at forming students' understanding of the Earth's nature, population, economy, and environmental issues. It covers general geographical patterns and the characteristics of individual regions and countries."
+            },
+            "informatics": {
+                "name": "Informatics",
+                "desc-1": "The informatics course forms basic knowledge and skills in the field of information technology and computer work. It covers theoretical foundations and practical aspects necessary for understanding and using modern technologies."
+            },
+            "math": {
+                "name": "Mathematics",
+                "desc-1": "The mathematics course is aimed at developing logical thinking, problem-solving skills, and applying knowledge in everyday life. It covers the main sections of mathematics that form the foundation for further study of exact sciences."
+            },
+            "painting": {
+                "name": "Painting",
+                "desc-1": "The painting course for secondary school is aimed at forming students' understanding of artistic styles, techniques, outstanding masters, and their works. It covers the basics of fine art, the development of painting in different eras, and introduces the cultural heritage of various countries and peoples."
+            },
+            "physics": {
+                "name": "Physics",
+                "desc-1": "The physics course for secondary school is aimed at forming students' basic knowledge of physical phenomena, laws, and methods of studying them. It covers the main sections of physics that help understand the world around us and prepare for further education."
+            },
+            "robotics": {
+                "name": "Robotics",
+                "desc-1": "Master the creation and programming of robots: from the basics of electronics and mechanics to developing control algorithms. Learn to assemble functional models, work with microcontrollers and sensors."
+            }
+        },
+        "languages": {
+            "arab": {
+                "name": "Arabic",
+                "desc-1": "Arabic language courses are suitable for any level — from beginners to advanced. The program covers grammar, vocabulary, and the development of reading, writing, and listening skills. You will immerse yourself in different dialects, get acquainted with Arabic culture, and learn in an interactive format."
+            },
+            "chinese": {
+                "name": "Chinese",
+                "desc-1": "In Chinese language courses, you will not only master basic and grammatical structures. You will gain unique knowledge about Chinese writing, including characters. You will learn to read and write in Chinese, which is an element of deep understanding of culture and history. Master the basics of pronunciation and tones, which are especially important for perception and conveying meaning."
+            },
+            "english": {
+                "name": "English",
+                "desc-1": "Courses for people who want to communicate freely. You will learn to speak with foreigners and native speakers, improve your pronunciation, understand speech by ear, and confidently maintain a conversation in English. You will master basic conversational structures, expand your vocabulary, and overcome the language barrier. The classes include practical exercises."
+            },
+            "kazakh": {
+                "name": "Kazakh",
+                "desc-1": "Our online Kazakh language courses are an opportunity to learn one of the oldest and most beautiful languages in the world. The program is suitable for all levels — from beginners to advanced. The flexible learning format allows you to master the language at your convenience while immersing yourself in the culture and traditions of Kazakhstan. Special emphasis is placed on developing conversational skills."
+            },
+            "russian": {
+                "name": "Russian",
+                "desc-1": "We offer engaging and effective learning, specially designed for those who want to start learning Russian from scratch or improve their existing knowledge. Special attention is paid to developing oral communication skills. During the course, you will learn to correctly construct sentences typical of the Russian language."
+            },
+            "turk": {
+                "name": "Turkish",
+                "desc-1": "Courses for those who want to communicate freely in Turkish! You will learn to converse with native speakers, improve your pronunciation, easily understand speech by ear, and confidently maintain a conversation. During the course, you will learn to correctly construct sentences and idioms typical of the Turkish language. Master the basics of pronunciation and tones."
+            }
+        }
+    }
+}
+
