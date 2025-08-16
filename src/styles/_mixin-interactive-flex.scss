@@ -1,18 +1,6 @@
-// Брейкпоинты в стиле Tailwind
-$breakpoints: (
-  sm: 640px,
-  md: 768px,
-  lg: 1024px,
-  xl: 1280px,
-  2xl: 1536px,
-  3xl: 1720px,
-  4xl: 1920px,
-  5xl: 2200px
-);
+@use '@/styles/mixin-breakpoints' as *;
 
-// Миксин для flex + gap + hover
-@mixin flex-with-gap($gap: null, // gap по умолчанию
-
+@mixin flex-with-gap($gap: null,
   $gap-sm: null,
   $gap-md: null,
   $gap-lg: null,
@@ -35,7 +23,7 @@ $breakpoints: (
     column-gap: $gap;
   }
 
-  // Генерация медиазапросов
+  // адаптивные gaps
   @if $gap-sm {
     @media (min-width: map-get($breakpoints, sm)) {
       column-gap: $gap-sm;

@@ -1,32 +1,48 @@
-// Брейкпоинты
-$breakpoints: (
-  xs: 375px,
-  md: 768px,
-  lg: 1440px,
-  xl: 1920px
-);
+@use '@/styles/mixin-breakpoints' as *;
 
-// Миксин для адаптивного свойства
-@mixin responsive-prop($property, $xs: null, $md: null, $lg: null, $xl: null) {
-  @if $xs !=null {
-    #{$property}: $xs;
-  }
+@mixin responsive-prop($property, $args...) {
+  @if type-of(nth($args, 1))=='map' {
+    $values: nth($args, 1);
 
-  @if $md !=null {
-    @media (min-width: map-get($breakpoints, md)) {
-      #{$property}: $md;
+    @each $bp, $val in $values {
+      @if $bp ==xs {
+        #{$property}: $val;
+      }
+
+      @else {
+        @media (min-width: map-get($breakpoints, $bp)) {
+          #{$property}: $val;
+        }
+      }
     }
   }
 
-  @if $lg !=null {
-    @media (min-width: map-get($breakpoints, lg)) {
-      #{$property}: $lg;
-    }
-  }
+  @else {
+    $xs: if(length($args) >=1, nth($args, 1), null);
+    $md: if(length($args) >=2, nth($args, 2), null);
+    $lg: if(length($args) >=3, nth($args, 3), null);
+    $xl: if(length($args) >=4, nth($args, 4), null);
 
-  @if $xl !=null {
-    @media (min-width: map-get($breakpoints, xl)) {
-      #{$property}: $xl;
+    @if $xs !=null {
+      #{$property}: $xs;
+    }
+
+    @if $md !=null {
+      @media (min-width: map-get($breakpoints, md)) {
+        #{$property}: $md;
+      }
+    }
+
+    @if $lg !=null {
+      @media (min-width: map-get($breakpoints, lg)) {
+        #{$property}: $lg;
+      }
+    }
+
+    @if $xl !=null {
+      @media (min-width: map-get($breakpoints, xl)) {
+        #{$property}: $xl;
+      }
     }
   }
 }

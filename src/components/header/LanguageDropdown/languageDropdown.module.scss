@@ -1,0 +1,95 @@
+@use '@/styles/mixin-interactive-flex' as *;
+@use '@/styles/mixin-responsive-props' as *;
+
+.containerLanguage {
+  position: relative;
+
+  @include flex-with-gap($align: center);
+}
+
+.btnLanguage {
+
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease;
+
+  @include responsive-prop(column-gap, (xs: 0.625rem)); // можно добавить md/xl значения
+
+  &:hover {
+    color: #3C3ADF;
+  }
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+
+  @include responsive-prop(width, (xs: 1.5rem, 2xl: 2.5rem));
+}
+
+.imgLanguage {
+  object-fit: contain;
+}
+
+.textLanguage {
+  @include responsive-prop(display, (xs: none, md: inline));
+  @include responsive-prop(margin-right, (xl: 1.75rem, 2xl: 0));
+}
+
+.shortTextLanguage {
+  @include responsive-prop(display, (xs: block, md: none));
+}
+
+.btnMenu {
+  transition: transform 0.2s;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+.nav {
+  position: absolute;
+  display: none; // hidden по умолчанию
+  right: 0.125rem; // right-0.5
+  background: #fff;
+  border-radius: 0 0 0.5rem 0.5rem; // rounded-lg + rounded-t-none
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+
+  @include responsive-prop(display, (md: block));
+
+  @include responsive-prop(top, (md: 59px, lg: 60px, xl: 62px, 2xl: 64px));
+
+  @include responsive-prop(width, (md: 8rem, lg: 8.75rem, xl: 11.5rem, 2xl: 16rem));
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.languageItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; // gap-3
+  padding: 0.5rem 1rem; // py-2 px-4
+  transition: color 0.2s, background-color 0.2s;
+
+  &:hover {
+    background-color: #f9fafb; // gray-50
+    color: #3C3ADF;
+  }
+
+  &.active {
+    color: #3C3ADF;
+    font-weight: 500; // font-medium
+  }
+}
+
+.imgItem {
+  flex-shrink: 0;
+}
