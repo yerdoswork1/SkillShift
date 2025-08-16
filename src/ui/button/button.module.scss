@@ -1,0 +1,117 @@
+@use "@/styles/mixin-interactive-flex" as *;
+@use "@/styles/mixin-responsive-props" as *;
+
+.button {
+  @include flex-with-gap(0.5rem, $align: center, $justify: center);
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  outline: none;
+  cursor: pointer;
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  &--active {
+    background-color: #4338ca; // bg-indigo-700
+    color: #fff;
+    border-color: transparent;
+  }
+
+  &--inactive {
+    border: 1px solid rgb(196, 195, 195);
+    background-color: #fff;
+    color: #000;
+  }
+
+  svg {
+    pointer-events: none;
+    flex-shrink: 0;
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+.default {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  box-shadow: var(--shadow-xs);
+
+  &:hover {
+    background-color: rgba(var(--color-primary-rgb), 0.9);
+  }
+}
+
+.destructive {
+  background-color: var(--color-destructive);
+  color: white;
+  box-shadow: var(--shadow-xs);
+
+  &:hover {
+    background-color: rgba(var(--color-destructive-rgb), 0.9);
+  }
+}
+
+.outline {
+  border: 1px solid var(--color-border, #c4c3c3);
+  background-color: var(--color-background);
+
+  &:hover {
+    background-color: var(--color-accent);
+    color: var(--color-accent-foreground);
+  }
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-foreground);
+}
+
+.ghost {
+  background: none;
+
+  &:hover {
+    background-color: var(--color-accent);
+    color: var(--color-accent-foreground);
+  }
+}
+
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  text-underline-offset: 4px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// ---------- Размеры ---------- //
+.size-default {
+  height: 2.25rem; // h-9
+  padding: 0.5rem 1rem;
+}
+
+.size-sm {
+  height: 2rem;
+  padding: 0 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.size-lg {
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  border-radius: 0.375rem;
+}
+
+.size-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

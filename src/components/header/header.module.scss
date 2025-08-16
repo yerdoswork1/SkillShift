@@ -2,6 +2,8 @@
 
 @use "@/styles/mixin-layout" as *;
 
+@use "@/styles/mixin-responsive-props" as *;
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,29 +24,14 @@
     0px 9px 4px 0px rgba(0, 0, 0, 0),
     0px 14px 4px 0px rgba(0, 0, 0, 0);
 
-  // text-base
   @include text-size("base");
 
   @media (min-width: 640px) {
-    // sm:px-0
     padding-left: 0;
     padding-right: 0;
   }
 
-  @media (min-width: 768px) {
-    // md:text-xs
-    @include text-size("xs");
-  }
-
-  @media (min-width: 1280px) {
-    // xl:text-xl
-    @include text-size("xl");
-  }
-
-  @media (min-width: 1536px) {
-    // 2xl:text-2xl
-    @include text-size("2xl");
-  }
+  @include responsive-prop(font-size, 12px, 17px, 22px, 30px);
 }
 
 .container {
@@ -67,4 +54,14 @@
   @media (min-width: 1280px) {
     column-gap: 2.5rem;
   }
+}
+
+.linkContacts {
+  &:hover {
+    color: rgb(60, 58, 223);
+  }
+}
+
+.linkContainer {
+  @include responsive-prop(display, (xs: none, md: block));
 }
